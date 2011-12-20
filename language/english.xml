@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Language lang="en" name="English">
+  <AndDelimiter>and</AndDelimiter>
+  <OrDelimiter>or</OrDelimiter>
+  <Protocol>
+    <HubTooBusy>The hub is currently too busy... try again later.</HubTooBusy>
+    <ReadBufferFull>The message you&apos;ve sent is too long, max length allowed is: %d bytes</ReadBufferFull>
+    <IncorrectProtocolMessage>Your direct connect client has sent an invalid protocol message</IncorrectProtocolMessage>
+    <ValidateNickToShort>Your nickname is too short, please change it and reconnect</ValidateNickToShort>
+    <ValidateNickToLong>Your nickname is too long, please shorten it and reconnect</ValidateNickToLong>
+    <ValidateMyINFOToLong>The MyINFO line supplied by your client is longer than allowed, shorten your description or change client</ValidateMyINFOToLong>
+    <InvalidKeySuppliedByClient>Your direct connect client has supplied an invalid key</InvalidKeySuppliedByClient>
+    <InvalidMyINFOSuppliedByClient>Your direct connect client has supplied an invalid MyINFO</InvalidMyINFOSuppliedByClient>
+    <InvalidPMSuppliedByClient>Your direct connect client has supplied an invalid TO</InvalidPMSuppliedByClient>
+    <InvalidSRSuppliedByClient>Your direct connect client has supplied an invalid SR</InvalidSRSuppliedByClient>
+    <InvalidIPOnSearchOrConnectToMe>Your direct connect client has supplied an invalid IP address in a connection request (client sent %s, you have %s). This is usually a client configuration problem</InvalidIPOnSearchOrConnectToMe>
+    <InvalidRevConnectToMe>Your direct connect client has supplied an invalid RevConnectToMe</InvalidRevConnectToMe>
+    <InvalidIPPatternOnAccount>Your IP address doesn&apos;t match the required IP/IP range for this nickname, try changing nickname and reconnect!</InvalidIPPatternOnAccount>
+    <NickInUse>The nickname you&apos;ve supplied is already in use by another user, please change it and reconnect</NickInUse>
+    <NickForbiddenChar>Your nickname contains forbidden characters: %s</NickForbiddenChar>
+    <NickReservedForHubPinger>The nickname you&apos;ve supplied is reservered, please change it and reconnect</NickReservedForHubPinger>
+    <NickRegisteredProvidePass>Your nickname is registered, please provide a password</NickRegisteredProvidePass>
+    <IncorrectPassword>Incorrect password</IncorrectPassword>
+    <IncorrectPasswordAutoBan>You&apos;ve been banned for supplying an incorrect password too many times</IncorrectPasswordAutoBan>
+    <IncorrectPasswordAutoBanReason>[auto]Incorrect password supplied</IncorrectPasswordAutoBanReason>
+    <IncorrectNickInMainChat>Your client has supplied an incorrect nickname when posting to mainchat</IncorrectNickInMainChat>
+    <SearchingDisabled>Searching is currently disabled</SearchingDisabled>
+    <MainChatDisabled>Mainchat is currently disabled</MainChatDisabled>
+    <MainChatLocked>Mainchat is currently locked, maybe it&apos;s time to listen?</MainChatLocked>
+    <ConnectToMeDisabled>Downloading from other users in active mode is currently disabled</ConnectToMeDisabled>
+    <RevConnectToMeDisabled>Downloading from other users in passive mode is currently disabled</RevConnectToMeDisabled>
+    <RevConnectToMeResponseDisabled>The user you are trying to download from is not allowed to respond to your clients passive connection request. Try using active mode instead</RevConnectToMeResponseDisabled>
+    <PrivateMessageDisabled>Private messages are currently disabled</PrivateMessageDisabled>
+    <SearchTooLong>The search you&apos;ve entered is longer than the maximum allowed length</SearchTooLong>
+    <PassiveSearchNotAllowed>Searching in passive mode is currently disabled</PassiveSearchNotAllowed>
+    <ToShortPassiveSearch>Your search is too short, please be more specific</ToShortPassiveSearch>
+    <SpamAbuseKickSearch>You&apos;ve been kicked for search spam abuse</SpamAbuseKickSearch>
+    <SpamAbuseKickMainChat>You&apos;ve been kicked for mainchat spam abuse</SpamAbuseKickMainChat>
+    <SpamAbuseKickMyINFO>You&apos;ve been kicked for MyINFO spam abuse</SpamAbuseKickMyINFO>
+    <SpamAbuseKickNickList>You&apos;ve been kicked for refresh nicklist spam abuse</SpamAbuseKickNickList>
+    <SpamAbuseKickPM>You&apos;ve been kicked for private message spam abuse</SpamAbuseKickPM>
+    <SpamAbuseKickJunkData>You&apos;ve been kicked for junk data spam abuse</SpamAbuseKickJunkData>
+    <SpamAbuseKickReasonSearch>Search spam abuse</SpamAbuseKickReasonSearch>
+    <SpamAbuseKickReasonMainChat>Mainchat spam abuse</SpamAbuseKickReasonMainChat>
+    <SpamAbuseKickReasonMyINFO>MyINFO spam abuse</SpamAbuseKickReasonMyINFO>
+    <SpamAbuseKickReasonNickList>Refresh nicklist spam abuse</SpamAbuseKickReasonNickList>
+    <SpamAbuseKickReasonPM>Private message spam abuse</SpamAbuseKickReasonPM>
+    <SpamAbuseKickReasonJunkData>Junk data spam abuse</SpamAbuseKickReasonJunkData>
+    <SearchSpamWarning>SpamWarning %d: Search spam abuse</SearchSpamWarning>
+    <MainChatSpamWarning>SpamWarning %d: MainChat spam abuse</MainChatSpamWarning>
+    <MyINFOSpamWarning>SpamWarning %d: MyINFO spam abuse</MyINFOSpamWarning>
+    <NickListSpamWarning>SpamWarning %d: Nicklist spam abuse</NickListSpamWarning>
+    <PMSpamWarning>SpamWarning %d: Private message spam abuse</PMSpamWarning>
+    <JunkDataSpamWarning>SpamWarning %d: Junk data spam abuse</JunkDataSpamWarning>
+    <CutDueToLengthMessage>This message was cut due to length</CutDueToLengthMessage>
+    <MutedUserMessage>You&apos;re currently muted and unable to speak</MutedUserMessage>
+    <ConnectionTimeout>You&apos;ve been disconnected because the negotiation between your client and the hub took too long</ConnectionTimeout>
+    <InCorrectISPPattern>Your name should have (one of) the following prefix(s): %s</InCorrectISPPattern>
+    <TooBusyToRefreshNickList>The connection between you and the hub is too busy to refresh nicklist at this moment</TooBusyToRefreshNickList>
+    <OnKickAutoBanReason>Kicked repeatedly</OnKickAutoBanReason>
+    <OnKickUserNotFound>The user you&apos;re trying to kick couldn&apos;t be found</OnKickUserNotFound>
+    <OnKickUserUnKickable>This user is protected by Lord Yoshi himself, trust me you do NOT wanna do this</OnKickUserUnKickable>
+    <OnKickUserTooLowAccountLvl>This user is too powerful for a safe victory</OnKickUserTooLowAccountLvl>
+    <OnKickUser>%s, IP address: %s was kicked by %s</OnKickUser>
+    <OnKickUserWithReason>%s, IP address: %s was kicked by %s because: %s</OnKickUserWithReason>
+    <OnKickUserWithTotalKicks>%s, IP address: %s was kicked (total kicks: %d) by %s</OnKickUserWithTotalKicks>
+    <OnKickUserWithTotalKicksAndReason>%s, IP address: %s was kicked (total kicks: %d) by %s because: %s</OnKickUserWithTotalKicksAndReason>
+    <OnKickUserWithTotalKicksAndAutoBan>%s, IP address: %s was kicked (total kicks: %d thus auto banned) by %s</OnKickUserWithTotalKicksAndAutoBan>
+    <OnKickUserWithTotalKicksAndReasonAndAutoBan>%s, IP address: %s was kicked (total kicks: %d thus auto banned) by %s because: %s</OnKickUserWithTotalKicksAndReasonAndAutoBan>
+    <OnKickUserMessage>You were kicked by %s</OnKickUserMessage>
+    <OnKickUserMessageHasReason>You were kicked by %s because: %s</OnKickUserMessageHasReason>
+    <OnKickFeedMessage>%s was kicked by %s</OnKickFeedMessage>
+    <OnKickFeedMessageHasReason>%s was kicked by %s because: %s</OnKickFeedMessageHasReason>
+    <OnKickIfKennylized>Oh my god, %s! You killed kenny. You bastard</OnKickIfKennylized>
+    <OnRedirectUserNotFound>The user you&apos;re trying to redirect couldn&apos;t be found</OnRedirectUserNotFound>
+    <OnRedirectUserUnMoveable>This user is protected by Lord Yoshi himself, trust me you do NOT wanna do this</OnRedirectUserUnMoveable>
+    <OnRedirectUserTooLowAccountLvl>This user is too powerful for a safe victory</OnRedirectUserTooLowAccountLvl>
+    <OnRedirectUser>You&apos;re being redirected to %s</OnRedirectUser>
+    <OnRedirectUserWithReason>You&apos;re being redirected to %s because: %s</OnRedirectUserWithReason>
+    <OnRedirectFeedMessage>%s redirected %s to %s</OnRedirectFeedMessage>
+    <OnNewProfile>Your account profile have been changed from %s to %s</OnNewProfile>
+    <OnInvalidMcToFeedMessage>%s tried to send an invalid MCTo message: %s</OnInvalidMcToFeedMessage>
+    <HubIsFull>The hub is currently full, try connecting again later</HubIsFull>
+    <RegisteredUsersOnly>This is a registered users only hub</RegisteredUsersOnly>
+    <InCorrectISP>Your ISP/IP isn&apos;t allowed on this hub, allowed ISPs are: %s</InCorrectISP>
+    <LowShare>You&apos;re not sharing enough, your sharesize is %s and the minimum allowed is %s</LowShare>
+    <HighShare>You&apos;re sharing too much, your sharesize is %s and the maximum allowed is %s</HighShare>
+    <NoTag>Your client didn&apos;t supply a description tag, currently this isn&apos;t allowed</NoTag>
+    <NoPassive>You&apos;ve connected in passive mode, currently this isn&apos;t allowed</NoPassive>
+    <NoPassiveWhileConnected>Your client has performed a passive action which currently isn&apos;t allowed</NoPassiveWhileConnected>
+    <HighHubs>You&apos;re currently connected to too many hubs, you&apos;re on %d hubs and the current limit is: %d</HighHubs>
+    <LowSlots>You havn&apos;t got enough slots open, you&apos;ve got %d and the minimum allowed is: %d</LowSlots>
+    <HighSlots>You&apos;ve got too many slots open, you&apos;ve got %d and the maximum allowed is: %d</HighSlots>
+    <LowSlotsRatio>Your slot ratio is currently too low, your ratio is %s slots/hub and the minimum allowed is: %d slots/hub</LowSlotsRatio>
+    <WarnHidden>You&apos;re currently hidden!</WarnHidden>
+    <IncorrectPasswordNotification>The IP %s has entered the incorrect password for %s %d times</IncorrectPasswordNotification>
+  </Protocol>
+  <HubRegistration>
+    <DefaultLastAttempt>Missing</DefaultLastAttempt>
+    <ResolvingIP>Resolving IP address</ResolvingIP>
+    <ResolvingIPFailed>The attemp to resolve the IP address failed, the &#13;&#10;hostname may be invalid</ResolvingIPFailed>
+    <ConnectionFailed>Connection failed</ConnectionFailed>
+    <ConnectionTimeOut>Timed out without receiving appropriate reply &#13;&#10;from host</ConnectionTimeOut>
+    <Connected>Connected</Connected>
+    <ConnectionClosedByForeignHost>The connection was closed by the host before &#13;&#10;registration was completed</ConnectionClosedByForeignHost>
+    <Connecting>Connecting</Connecting>
+    <RegisterCompleted>Registration finished successfully</RegisterCompleted>
+    <SendFailed>Failed while trying to send hubinfo to host</SendFailed>
+    <SendSuccessful>Key and hubinfo successfully sent to host</SendSuccessful>
+  </HubRegistration>
+  <BanList>
+    <NewBan>You&apos;ve been banned by %s</NewBan>
+    <NewBanWithReason>You&apos;ve been banned by %s because: %s</NewBanWithReason>
+    <NewBanWithTime>You&apos;ve been temporary banned until %s by %s</NewBanWithTime>
+    <NewBanWithTimeAndReason>You&apos;ve been temporary banned until %s by %s because: %s</NewBanWithTimeAndReason>
+    <ExistingBan>You&apos;re banned from this hub by %s</ExistingBan>
+    <ExistingBanWithReason>You&apos;re banned from this hub by %s because: %s</ExistingBanWithReason>
+    <ExistingBanWithTime>You&apos;re temporary banned until %s by %s</ExistingBanWithTime>
+    <ExistingBanWithTimeAndReason>You&apos;re temporary banned until %s by %s because: %s</ExistingBanWithTimeAndReason>
+    <ExistingClientBan>Your client is banned from this hub by %s</ExistingClientBan>
+    <ExistingClientBanWithReason>Your client is banned from this hub by %s because: %s</ExistingClientBanWithReason>
+    <ExistingClientBanWithTime>Your client is temporary banned until %s by %s</ExistingClientBanWithTime>
+    <ExistingClientBanWithTimeAndReason>Your client is temporary banned until %s by %s because: %s</ExistingClientBanWithTimeAndReason>
+    <TmpBanIP>The IP address %s is still banned for another %s as %s</TmpBanIP>
+    <TmpBanIPWithReason>The IP address %s is still banned for another %s as %s because: %s</TmpBanIPWithReason>
+    <TmpBanNick>You are still temporarily banned for another %s (Hammering will keep resetting your ban)</TmpBanNick>
+    <TmpBanNickWithReason>You are still temporarily banned for another %s (Hammering will keep resetting your ban) because: %s</TmpBanNickWithReason>
+    <TmpBanRemoveFound>%d temporary bans were removed</TmpBanRemoveFound>
+    <TmpBanRemoveNoneFound>There were no temporary bans that needed to be removed</TmpBanRemoveNoneFound>
+    <ShareTraceNoUpdate>You&apos;ve been requested to update your share but you still haven&apos;t</ShareTraceNoUpdate>
+    <ShareTraceNoUpdateReason>You&apos;ve been kicked because: %s and still haven&apos;t corrected your share</ShareTraceNoUpdateReason>
+    <ShareTraceNotifyShareUpdateMessage>%s (IP: %s) has updated the share and was granted access</ShareTraceNotifyShareUpdateMessage>
+  </BanList>
+  <ChatRooms>
+    <CreateChatRoomErrorNoNick>Could not create chatroom: Name of chatroom missing!</CreateChatRoomErrorNoNick>
+    <CreateChatRoomErrorToLongNick>Could not create chatroom: Name of chatroom must be less than 32 characters!</CreateChatRoomErrorToLongNick>
+    <CreateChatRoomErrorNickInUse>Could not create chatroom: The nickname is already in use by another user or chatroom!</CreateChatRoomErrorNickInUse>
+    <CreateChatRoomSuccess>Chatroom created succesfully!</CreateChatRoomSuccess>
+    <CreateChatRoomNotification>%s created the chatroom %s</CreateChatRoomNotification>
+    <DeleteCharRoomErrorNotFound>Chatroom not found!</DeleteCharRoomErrorNotFound>
+    <DeleteChatRoomSuccess>Chatroom deleted!</DeleteChatRoomSuccess>
+    <DeleteChatRoomNotification>%s deleted the chatroom %s</DeleteChatRoomNotification>
+    <CommandHelpHeader>Available commands:&#13;&#10;*****************</CommandHelpHeader>
+    <CommandHelpHelp>%s			-	Shows this very help</CommandHelpHelp>
+    <CommandHelpList>%s &lt;search&gt; &lt;offset&gt;	-	List of users currently in the chatroom (search and offset parameters are optional. Ex: +list yos* 20)</CommandHelpList>
+    <CommandHelpJoin>%s			-	Adds you as a user of the chatroom (only if public)</CommandHelpJoin>
+    <CommandHelpLeave>%s			-	Removes you as a user of the chatroom</CommandHelpLeave>
+    <CommandHelpInvite>%s &lt;nick&gt;		-	Invites &lt;nick&gt; to chatroom</CommandHelpInvite>
+    <CommandHelpKick>%s &lt;nick&gt; &lt;reason&gt;	-	Kicks &lt;nick&gt; from chatroom</CommandHelpKick>
+    <CommandListNoUserFound>No users where found matching the pattern: %s</CommandListNoUserFound>
+    <CommandListHeader>Showing %d hits from offset %d, total hits: %d</CommandListHeader>
+    <CommandJoinNewUser>Welcome %s to this chatroom, write %s to recieve a list of available commands</CommandJoinNewUser>
+    <CommandLeave>Bye %s, hope to see you soon!</CommandLeave>
+    <CommandInviteNickMissing>You have to supply a nick of a user connected to the hub</CommandInviteNickMissing>
+    <CommandInviteNonUser>Haha, you mortal fool... %s hardly needs your invitation to enter this chatroom</CommandInviteNonUser>
+    <CommandInviteUserNotFound>The user %s wasn&apos;t found</CommandInviteUserNotFound>
+    <CommandInviteAlreadyInvited>%s is already a part of this chatroom and can&apos;t be invited again</CommandInviteAlreadyInvited>
+    <CommandInviteSuccess>%s was invited to this chatroom</CommandInviteSuccess>
+    <CommandInviteTellTheUser>You&apos;ve been invited by %s, send +help to list available commands</CommandInviteTellTheUser>
+    <CommandKickNickMissing>You have to supply a nick of a user you wish to kick from this chatroom</CommandKickNickMissing>
+    <CommandKickNickNotFound>The nick you supplied is not a user in this chatroom, use +list command to show users</CommandKickNickNotFound>
+    <CommandKickNotPossible>This user is too powerful for a safe victory</CommandKickNotPossible>
+    <CommandKickSuccess>%s was kicked from this chatroom</CommandKickSuccess>
+    <CommandKickTellTheUser>You&apos;ve been kicked by %s</CommandKickTellTheUser>
+    <CommandKickTellTheUserWithReason>You&apos;ve been kicked by %s because: %s</CommandKickTellTheUserWithReason>
+    <NonCommandOfNotJoinedUser>This is a chatroom, type +h for help</NonCommandOfNotJoinedUser>
+  </ChatRooms>
+  <HubBot>
+    <CommandSymbol>[command]</CommandSymbol>
+    <UnkownCommand>Unknown command! type $help for help!</UnkownCommand>
+    <ForbiddenCommand>You don&apos;t have access to this command</ForbiddenCommand>
+    <ErrorCommand>Wrong number of parameters. Type $help for help</ErrorCommand>
+    <ListHeader>Showing %d hits from offset %d, total hits: %d</ListHeader>
+    <ListSubHeader>On search: %s</ListSubHeader>
+    <HelpHeader>These commands are available to you:</HelpHeader>
+    <HelpHelp>This help text</HelpHelp>
+    <HelpLock>Sets lock on hub. When activated (on) hub appears offline</HelpLock>
+    <HelpTopic>Sets a hubtopic (no topic deletes current topic)</HelpTopic>
+    <HelpSaveAllSettings>Saves all YnHub settings to disk</HelpSaveAllSettings>
+    <HelpSetRedirects>Sets a redirect, omit type and addr parameter to get available types</HelpSetRedirects>
+    <HelpShowRedirects>Shows current redirects</HelpShowRedirects>
+    <HelpWorkPace>Set the current workpace</HelpWorkPace>
+    <HelpMaxUsers>Set max amount of users allowed in the hub</HelpMaxUsers>
+    <HelpRedirectAll>Redirects everyone on the hub!</HelpRedirectAll>
+    <HelpSetMinShare>Sets hub min share (sufix: KiB, MiB, GiB, TiB, PiB)</HelpSetMinShare>
+    <HelpSetMaxShare>Sets hub max share (ex. 50 GiB, 0 = disabled)</HelpSetMaxShare>
+    <HelpSetMaxHubs>Set max hubs (0 = disabled)</HelpSetMaxHubs>
+    <HelpSetMinSlots>Set min slots (0 = disabled)</HelpSetMinSlots>
+    <HelpSetMaxSlots>Set max slots (0 = disabled)</HelpSetMaxSlots>
+    <HelpSetSlotRatio>Set slotratio (min slots / hub, 0 = disabled)</HelpSetSlotRatio>
+    <HelpDisableMainChat>Disable the ablity to post in main chat (overriden by operators and specially allowed users)</HelpDisableMainChat>
+    <HelpAllowMC>Allow user to override when mainchat is disabled</HelpAllowMC>
+    <HelpDisallowMC>Removes the privilege to override when mainchat is disabled</HelpDisallowMC>
+    <HelpHubInfo>Hubinformation and statistics</HelpHubInfo>
+    <HelpUserInfo>Information on one or more users</HelpUserInfo>
+    <HelpIPInfo>Information on one or more ips</HelpIPInfo>
+    <HelpNickInfo>Nick information from an IP/IP range</HelpNickInfo>
+    <HelpTrafficInfo>Display users protocol message counts</HelpTrafficInfo>
+    <HelpTrafficStats>Display traffic statistics (Types: Search, SR, Connect, NickList, MyINFO, MC, PM, Data, BW)</HelpTrafficStats>
+    <HelpCoreInfo>Display more detailed information about the hub core</HelpCoreInfo>
+    <HelpAccountProfileShow>Display all profiles available</HelpAccountProfileShow>
+    <HelpAccountAdd>Add an account</HelpAccountAdd>
+    <HelpAccountDel>Delete an account (note: does not kick user if online)</HelpAccountDel>
+    <HelpAccountChange>Change nick/pass of an account (note: requires both addreg and delreg access. Password is optional)</HelpAccountChange>
+    <HelpAccountList>Shows accounts, use &quot;all&quot; as profile to list regardless of profile</HelpAccountList>
+    <HelpAccountSetProfile>Sets the profile of an account</HelpAccountSetProfile>
+    <HelpAccountSetIPs>Sets one or more IP/IP range(s) for the account, use ; as delimiter</HelpAccountSetIPs>
+    <HelpAccountShowIPs>Shows the required IP/IP range(s) for the account</HelpAccountShowIPs>
+    <HelpAccountSetComment>Sets a comment to the account</HelpAccountSetComment>
+    <HelpAccountSetGreeting>Sets a greeting to the account</HelpAccountSetGreeting>
+    <HelpAccountSetExpireDate>Sets an expire date on an account (Ex. &quot;%s&quot;, &quot;0&quot; for permanent)</HelpAccountSetExpireDate>
+    <HelpAccountSetOwner>Sets an owner on an account (if no owner is supplied you become owner)</HelpAccountSetOwner>
+    <HelpAccountShowPass>Shows the current password on &lt;account&gt;</HelpAccountShowPass>
+    <HelpUserRegisteredAdd>Add a nick to registered</HelpUserRegisteredAdd>
+    <HelpUserRegisteredDel>Delete a nick from registered</HelpUserRegisteredDel>
+    <HelpUserRegisteredList>Show registered</HelpUserRegisteredList>
+    <HelpUserRegisteredSetPass>Sets the current password of &lt;nick&gt;</HelpUserRegisteredSetPass>
+    <HelpUserRegisteredShowPass>Shows the current password of &lt;nick&gt;</HelpUserRegisteredShowPass>
+    <HelpBlockUser>Block user (user will become unable to search and download)</HelpBlockUser>
+    <HelpUnBlockUser>Unblocks user</HelpUnBlockUser>
+    <HelpRedirectUser>Redirects user to address</HelpRedirectUser>
+    <HelpDropUser>Drops a user</HelpDropUser>
+    <HelpKickUser>Kicks a user and adds to tempban</HelpKickUser>
+    <HelpBanUser>Bans a user by IP (User kicked)</HelpBanUser>
+    <HelpBanNick>Bans a nick or pattern (Ex. *demo*, may be left/right/both truncated)</HelpBanNick>
+    <HelpBanIP>Bans a IP or IP range (Ex. 127.0.*)</HelpBanIP>
+    <HelpBanDNS>Bans a DNS or DNS pattern (Ex. *.anydns.com, use ? as any char)</HelpBanDNS>
+    <HelpBanClient>Bans a client or client pattern (Ex. DC++0.1*)</HelpBanClient>
+    <HelpTBanUser>Bans a user by IP for &lt;time&gt; hours (User kicked)</HelpTBanUser>
+    <HelpTBanNick>Bans a nick or pattern for &lt;time&gt; hours</HelpTBanNick>
+    <HelpTBanIP>Bans an IP or IP range for &lt;time&gt; hours</HelpTBanIP>
+    <HelpTBanDNS>Bans a DNS or DNS pattern for &lt;time&gt; hours</HelpTBanDNS>
+    <HelpUnBan>Unbans a user banned by Nick/IP/DNS</HelpUnBan>
+    <HelpUnBanClient>Unbans a client or client pattern</HelpUnBanClient>
+    <HelpClearNickBans>Clears all nick bans (all possible)</HelpClearNickBans>
+    <HelpClearIPBans>Clears all IP bans (all possible)</HelpClearIPBans>
+    <HelpClearDNSBans>Clears all DNS bans</HelpClearDNSBans>
+    <HelpClearClientBans>Clears all client bans</HelpClearClientBans>
+    <HelpShowNickBans>Search among nick bans</HelpShowNickBans>
+    <HelpShowIPBans>Search among IP bans</HelpShowIPBans>
+    <HelpShowDNSBans>Search among DNS bans</HelpShowDNSBans>
+    <HelpShowClientBans>Search among client bans</HelpShowClientBans>
+    <HelpClearTempBans>Clears &lt;limit&gt; temporary bans Ex. limit = 1: clears last tempban</HelpClearTempBans>
+    <HelpShowTempBans>Show temporary bans</HelpShowTempBans>
+    <HelpISPAddISP>Adds &lt;isp&gt; to ISP-list</HelpISPAddISP>
+    <HelpISPDelISP>Removes &lt;isp&gt; from ISP-list</HelpISPDelISP>
+    <HelpISPShowISPs>Shows all isps or specified ISP (for more detailed information)</HelpISPShowISPs>
+    <HelpISPSearchISPs>Searches among IPs showing matching ISPs</HelpISPSearchISPs>
+    <HelpISPMatchISP>Looks for an ISP matching the &lt;ip&gt;</HelpISPMatchISP>
+    <HelpISPSetMinShare>Set min share for ISP (sufix: KiB, MiB, GiB, TiB, PiB)</HelpISPSetMinShare>
+    <HelpISPSetMaxShare>Set max share for ISP (ex. 50 GiB, 0 = disabled)</HelpISPSetMaxShare>
+    <HelpISPSetMaxHubs>Set max hubs for ISP (0 = disabled)</HelpISPSetMaxHubs>
+    <HelpISPSetMinSlots>Set min slots for ISP (0 = disabled)</HelpISPSetMinSlots>
+    <HelpISPSetMaxSlots>Set max slots for ISP (0 = disabled)</HelpISPSetMaxSlots>
+    <HelpISPSetSlotRatio>Set slotratio for iSP (min slots / hub, 0 = disabled)</HelpISPSetSlotRatio>
+    <HelpISPShowIPsOnISP>Shows all approved IP/IP ranges for &lt;isp&gt;</HelpISPShowIPsOnISP>
+    <HelpISPAddIP>Adds &lt;ip&gt; to &lt;isp&gt; approved</HelpISPAddIP>
+    <HelpISPDelIP>Removes &lt;ip&gt; from approved</HelpISPDelIP>
+    <HelpMute>Mutes user (Unable to post in mainchat, use * to mute all)</HelpMute>
+    <HelpUnMute>Unmutes user (able to post in mainchat again, use * to unmute all)</HelpUnMute>
+    <HelpKennylize>Kennylizes user (Posts in mainchat will be affected, use * to kennylize all)</HelpKennylize>
+    <HelpUnKennylize>Unkennylizes user (use * to unkennylize all)</HelpUnKennylize>
+    <HelpLunarize>Lunarizes user (makes user talk funny, use * to lunarize all)</HelpLunarize>
+    <HelpUnLunarize>Unlunarizes user (use * to unlunarize all)</HelpUnLunarize>
+    <HelpSay>Says &lt;message&gt; in mainchat as if &lt;nick&gt; said it</HelpSay>
+    <HelpMC>Sends &lt;message&gt; in mainchat from me (the hub bot)</HelpMC>
+    <HelpWarn>Sends a warning to &lt;user&gt;</HelpWarn>
+    <HelpInform>Sends &lt;message&gt; as a private message to &lt;user&gt; from me (the hub bot)</HelpInform>
+    <HelpPM>Sends a PM from me (the hub bot) to everyone</HelpPM>
+    <HelpPMProfile>Sends a PM from me (the hub bot) to everyone with profile &lt;profile&gt;</HelpPMProfile>
+    <HelpOPM>Sends a PM from me (the hub bot) to all operators</HelpOPM>
+    <HelpHideShare>Toggle hide share (when hidden showing zero bytes plus no search/connect to you)</HelpHideShare>
+    <HelpHideMe>Remove yourself from nicklist while still being able to stay online</HelpHideMe>
+    <HelpListTextCommand>Listing all available text commands</HelpListTextCommand>
+    <HelpEnableTextCommand>Enable/disable a text command</HelpEnableTextCommand>
+    <HelpSetTextCommand>Changes the content of a text command</HelpSetTextCommand>
+    <HelpShowTextCommand>Shows the content of a text command</HelpShowTextCommand>
+    <HelpAddChatRoom>Adds a public chatroom</HelpAddChatRoom>
+    <HelpDeleteChatRoom>Removes a public chatroom</HelpDeleteChatRoom>
+    <SpawnMC>You&apos;ve summoned me</SpawnMC>
+    <SpawnPM>Yes, I&apos;m here</SpawnPM>
+    <HubInfoHeader>Hub Information</HubInfoHeader>
+    <HubInfoSubHeader>*************</HubInfoSubHeader>
+    <HubInfoHubName>Hub name is: %s</HubInfoHubName>
+    <HubInfoWelcome>Hub welcome message is: %s</HubInfoWelcome>
+    <HubInfoTopic>Current topic (set by %s): %s</HubInfoTopic>
+    <HubInfoDisabled>disabled</HubInfoDisabled>
+    <HubInfoShare>Sharelimit: %s (max: %s)</HubInfoShare>
+    <HubInfoHubs>Hubs: %s</HubInfoHubs>
+    <HubInfoSlots>Slots (min/max): %s / %s</HubInfoSlots>
+    <HubInfoSlotratio>Slotratio: %s</HubInfoSlotratio>
+    <HubInfoAccounts>Accounts: %s</HubInfoAccounts>
+    <HubInfoNickbans>Nick bans: %s</HubInfoNickbans>
+    <HubInfoIPbans>IP bans: %s</HubInfoIPbans>
+    <HubInfoDNSbans>DNS bans: %s</HubInfoDNSbans>
+    <HubInfoClientbans>Client bans: %s</HubInfoClientbans>
+    <HubInfoCoreHeader>Core Information</HubInfoCoreHeader>
+    <HubInfoCoreSubHeader>**************</HubInfoCoreSubHeader>
+    <HubInfoCoreVersion>Version: %s</HubInfoCoreVersion>
+    <HubInfoCoreWorkPace>Workpace: %s</HubInfoCoreWorkPace>
+    <HubInfoCoreUptime>Uptime: %s</HubInfoCoreUptime>
+    <HubInfoCorePorts>Port(s): %s</HubInfoCorePorts>
+    <HubInfoCoreUsers>Users (current/peak/record): %s / %s / %s</HubInfoCoreUsers>
+    <HubInfoCoreUsersAuth>Users authorizing: %s</HubInfoCoreUsersAuth>
+    <HubInfoCoreUsersLimit>Userlimit: %s</HubInfoCoreUsersLimit>
+    <HubInfoCoreTotalShare>Current sharesize: %s</HubInfoCoreTotalShare>
+    <HubInfoCoreErrors>Errors: %s</HubInfoCoreErrors>
+    <HubInfoUserStatsNickCount>Nick entries: %s (Userstats)</HubInfoUserStatsNickCount>
+    <HubInfoUserStatsIPCount>IP entries %s (Userstats)</HubInfoUserStatsIPCount>
+    <HubInfoSysHeader>System Information</HubInfoSysHeader>
+    <HubInfoSysSubHeader>****************</HubInfoSysSubHeader>
+    <HubInfoSysCPUUsage>CPU usage: %s (During last 30s period)</HubInfoSysCPUUsage>
+    <HubInfoSysCPUTime>CPU time: %s</HubInfoSysCPUTime>
+    <HubInfoSysMemoryUsage>Memory usage: %s (%s)</HubInfoSysMemoryUsage>
+    <HubInfoSysVMMemoryUsage>VM usage: %s (%s)</HubInfoSysVMMemoryUsage>
+    <HubInfoSysPPMemoryUsage>Paged pool: %s (%s)</HubInfoSysPPMemoryUsage>
+    <HubInfoSysUPPMemoryUsage>Non-paged pool: %s (%s)</HubInfoSysUPPMemoryUsage>
+    <HubInfoSysMemoryAvailable>Memory available: %s</HubInfoSysMemoryAvailable>
+    <HubInfoCoreStatsHeader>Core statistics</HubInfoCoreStatsHeader>
+    <HubInfoCoreStatsSubHeader>*************</HubInfoCoreStatsSubHeader>
+    <HubInfoLoginTimeOuts>Login timeouts: %d</HubInfoLoginTimeOuts>
+    <HubInfoIdleTimeOuts>Idle timeouts: %d</HubInfoIdleTimeOuts>
+    <HubInfoTooSlow>Too slow drops: %d</HubInfoTooSlow>
+    <HubInfoSpamKicks>Spam kicks: %d</HubInfoSpamKicks>
+    <HubInfoSocketErrors>Socket errors: %d</HubInfoSocketErrors>
+    <TrafficInfoTooLowProfileLevel>You&apos;re not allowed to view traffic info on %s</TrafficInfoTooLowProfileLevel>
+    <TrafficInfoHeader>Traffic information on: %s</TrafficInfoHeader>
+    <TrafficInfoHeaderSummary>Traffic information summary</TrafficInfoHeaderSummary>
+    <TrafficInfoUserNotFound>User %s wasn&apos;t found</TrafficInfoUserNotFound>
+    <TrafficInfoMCs>Mainchat messages: %d</TrafficInfoMCs>
+    <TrafficInfoPMs>Private messages: %d</TrafficInfoPMs>
+    <TrafficInfoSearchsActive>Active searches: %d</TrafficInfoSearchsActive>
+    <TrafficInfoSearchsPassive>Passive searches: %d</TrafficInfoSearchsPassive>
+    <TrafficInfoSRs>Search replies: %d</TrafficInfoSRs>
+    <TrafficInfoMyINFOs>MyINFOs sent: %d</TrafficInfoMyINFOs>
+    <TrafficInfoGetINFOs>MyINFOs requested: %d</TrafficInfoGetINFOs>
+    <TrafficInfoNicklists>Nicklists requested: %d</TrafficInfoNicklists>
+    <TrafficInfoConnectToMe>Active connection attempts: %d</TrafficInfoConnectToMe>
+    <TrafficInfoRevConnectToMe>Passive connection attempts: %d</TrafficInfoRevConnectToMe>
+    <TrafficInfoKicks>Kicks: %d</TrafficInfoKicks>
+    <TrafficInfoRedirects>Redirects: %d</TrafficInfoRedirects>
+    <TrafficInfoBW>Bandwidth: %s</TrafficInfoBW>
+    <TrafficInfoDataSent>Data sent (to user): %s</TrafficInfoDataSent>
+    <TrafficInfoDataRecv>Data recv (from user): %s</TrafficInfoDataRecv>
+    <TrafficInfoJunkDataRecv>Junk data recv (from user): %s</TrafficInfoJunkDataRecv>
+    <TrafficStatsSearchInvalidParameter>The type you&apos;ve supplied isn&apos;t a recognized typ. Valid types are: Search, SR, Connect, NickList, MyINFO, MC, PM, Data, BW</TrafficStatsSearchInvalidParameter>
+    <TrafficStatsSearchUptimeInfo>(after %s)</TrafficStatsSearchUptimeInfo>
+    <TrafficStatsSearchHeader>Top %d search senders</TrafficStatsSearchHeader>
+    <TrafficStatsSearchRow>search(es)</TrafficStatsSearchRow>
+    <TrafficStatsSRHeader>Top %d SR senders</TrafficStatsSRHeader>
+    <TrafficStatsSRRow>SR(s)</TrafficStatsSRRow>
+    <TrafficStatsConnectHeader>Top %d connect senders</TrafficStatsConnectHeader>
+    <TrafficStatsConnectRow>connect(s)</TrafficStatsConnectRow>
+    <TrafficStatsNickListHeader>Top %d nicklist receivers</TrafficStatsNickListHeader>
+    <TrafficStatsNickListRow>nicklist(s)</TrafficStatsNickListRow>
+    <TrafficStatsMyINFOHeader>Top %d MyINFO senders</TrafficStatsMyINFOHeader>
+    <TrafficStatsMyINFORow>MyINFO(s)</TrafficStatsMyINFORow>
+    <TrafficStatsMCHeader>Top %d mainchat talkers</TrafficStatsMCHeader>
+    <TrafficStatsMCRow>MC(s)</TrafficStatsMCRow>
+    <TrafficStatsPMHeader>Top %d private message talkers</TrafficStatsPMHeader>
+    <TrafficStatsPMRow>PM(s)</TrafficStatsPMRow>
+    <TrafficStatsDataHeader>Top %d data receivers</TrafficStatsDataHeader>
+    <TrafficStatsBWHeader>Top %d bandwidth consumers</TrafficStatsBWHeader>
+    <AccountProfilesHeader>Profiles available to you:</AccountProfilesHeader>
+    <AccountProfileDontExists>Profile does not exist, type %s to list profiles</AccountProfileDontExists>
+    <AccountAlreadyExists>Account already exists</AccountAlreadyExists>
+    <AccountDontExists>Account not found</AccountDontExists>
+    <AccountAdd>Registered the account %s of profile %s with password %s @ %s</AccountAdd>
+    <AccountAddFeedMessage>%s registered the %s account %s</AccountAddFeedMessage>
+    <AccountAddProfileAccessError>You&apos;re not allowed to add an account of this profile</AccountAddProfileAccessError>
+    <AccountDel>Deleted the account %s</AccountDel>
+    <AccountDelProfileAccessError>You don&apos;t have permission to delete this account</AccountDelProfileAccessError>
+    <AccountChangeProfileAccessError>You don&apos;t have permission to rename this account</AccountChangeProfileAccessError>
+    <AccountChangeNickFailed>YnHub failed to rename %s to %s, %s is already in use.</AccountChangeNickFailed>
+    <AccountChangeNickFeedMessage>%s changed the account %s to %s</AccountChangeNickFeedMessage>
+    <AccountChangeNickAndPass>The account %s has been changed to %s with a new password: %s</AccountChangeNickAndPass>
+    <AccountChangeNick>The account %s has been changed to %s</AccountChangeNick>
+    <AccountChangePassFeedMessage>%s updated the password of %s</AccountChangePassFeedMessage>
+    <AccountChangePass>The password of %s has been updated to %s</AccountChangePass>
+    <AccountListSingelHeader>Account: %s</AccountListSingelHeader>
+    <AccountListSingelNick>Nick: %s</AccountListSingelNick>
+    <AccountListSingelProfile>Profile: %s</AccountListSingelProfile>
+    <AccountListSingelIPPattern>IP pattern: %s</AccountListSingelIPPattern>
+    <AccountListSingelIPPatternNone>IP pattern: [None]</AccountListSingelIPPatternNone>
+    <AccountListSingelUptime>Uptime: %s</AccountListSingelUptime>
+    <AccountListSingelKicks>Kicks: %d</AccountListSingelKicks>
+    <AccountListSingelBans>Bans: %d</AccountListSingelBans>
+    <AccountListSingelTimeBans>Timebans: %d</AccountListSingelTimeBans>
+    <AccountListSingelRedirects>Redirects: %d</AccountListSingelRedirects>
+    <AccountListSingelOwner>Owner: %s</AccountListSingelOwner>
+    <AccountListSingelLastUsed>Last used: %s</AccountListSingelLastUsed>
+    <AccountListSingelLastUsedNever>Last used: [Never]</AccountListSingelLastUsedNever>
+    <AccountListSingelLastSpoke>Last spoke: %s</AccountListSingelLastSpoke>
+    <AccountListSingelLastSpokeNever>Last spoke: [Never]</AccountListSingelLastSpokeNever>
+    <AccountListSingelCreated>Created: %s</AccountListSingelCreated>
+    <AccountListSingelCreatedBy>Created by: %s</AccountListSingelCreatedBy>
+    <AccountListSingelLastChanged>Last changed: %s</AccountListSingelLastChanged>
+    <AccountListSingelLastChangedNever>Last changed: [Never]</AccountListSingelLastChangedNever>
+    <AccountListSingelLastChangedBy>Last changed by: %s</AccountListSingelLastChangedBy>
+    <AccountListSingelExpireDate>Expire date: %s</AccountListSingelExpireDate>
+    <AccountListSingelExpireDatePermanent>Expire date: [Permanent]</AccountListSingelExpireDatePermanent>
+    <AccountListSingelComment>Comment: %s</AccountListSingelComment>
+    <AccountListProfileDontExists>Profile does not exist, specify all or type %s to list profiles</AccountListProfileDontExists>
+    <AccountListAccountExpire>expires: %s</AccountListAccountExpire>
+    <AccountListAccountExpirePerm>permanent</AccountListAccountExpirePerm>
+    <AccountSetProfileProfileNotFound>The profile %s wasn&apos;t found, write $showprofiles (sp) to list available profiles</AccountSetProfileProfileNotFound>
+    <AccountSetProfileAccountAccessError>You&apos;re not allowed to modify this account</AccountSetProfileAccountAccessError>
+    <AccountSetProfileAccessError>You&apos;re not allowed to use this profile</AccountSetProfileAccessError>
+    <AccountSetProfileAlreadyHave>%s already uses %s</AccountSetProfileAlreadyHave>
+    <AccountSetProfileSuccess>The profile of %s has been updated to %s</AccountSetProfileSuccess>
+    <AccountSetProfileFeedMessage>%s has updated the profile of %s to %s</AccountSetProfileFeedMessage>
+    <AccountSetCommentProfileAccessError>You&apos;re not allowed to modify comment on an account of this profile</AccountSetCommentProfileAccessError>
+    <AccountSetCommentDelComment>The comment of %s has been removed</AccountSetCommentDelComment>
+    <AccountSetCommentSuccess>The comment of %s has been updated to: %s</AccountSetCommentSuccess>
+    <AccountSetGreetingProfileAccessError>You&apos;re not allowed to modify the greeting on an account of this profile</AccountSetGreetingProfileAccessError>
+    <AccountSetGreetingDelGreeting>The greeting of %s has been removed</AccountSetGreetingDelGreeting>
+    <AccountSetGreetingSuccess>The greeting of %s has been updated to: %s</AccountSetGreetingSuccess>
+    <AccountSetExpireProfileAccessError>You&apos;re not allowed to modify expire date of an account of this profile</AccountSetExpireProfileAccessError>
+    <AccountSetExpireIncorrectDate>The date you&apos;ve supplied is not in a correct date format (Ex. %s or 0 for none)</AccountSetExpireIncorrectDate>
+    <AccountSetExpirePastDate>The date you&apos;ve supplied isn&apos;t a future date, if you want to delete the account use $delreg</AccountSetExpirePastDate>
+    <AccountSetExpireSuccess>The expire date of %s has been updated to: %s</AccountSetExpireSuccess>
+    <AccountSetExpireDelSuccess>The expire date of %s has been removed</AccountSetExpireDelSuccess>
+    <AccountSetIpsProfileAccessError>You&apos;re not allowed to modify required IP/IP pattern on an account of this profile</AccountSetIpsProfileAccessError>
+    <AccountSetIpsSuccess>Required IP/IP pattern on %s updated to: %s</AccountSetIpsSuccess>
+    <AccountSetIpsDelSuccess>Required IP/IP pattern on %s removed</AccountSetIpsDelSuccess>
+    <AccountShowIPsProfileAccessError>You&apos;re not allowed to view required IP/IP pattern on an account of this profile</AccountShowIPsProfileAccessError>
+    <AccountShowIPs>Required IP/IP pattern for %s is: %s</AccountShowIPs>
+    <AccountSetOwnerProfileAccessError>You&apos;re not allowed to change owner of an account of this profile</AccountSetOwnerProfileAccessError>
+    <AccountSetOwnerSuccess>Account owner of %s has been updated to: %s</AccountSetOwnerSuccess>
+    <AccountSetPassProfileAccessError>You&apos;re not allowed to change password of an account of this profile</AccountSetPassProfileAccessError>
+    <AccountSetPassSuccess>Password of %s has been updated to: %s</AccountSetPassSuccess>
+    <AccountShowPassProfileAccessError>You&apos;re not allowed to view the password of an account of this profile</AccountShowPassProfileAccessError>
+    <AccountShowPass>Password of %s is: %s</AccountShowPass>
+    <UserRegisteredAlreadyExists>This nick is already registered</UserRegisteredAlreadyExists>
+    <UserRegisteredDontExists>The nick %s isn&apos;t registered</UserRegisteredDontExists>
+    <UserRegisteredAccountExists>WARNING: An account with the nick %s exists and has precedence over registered nicks hiding this entry</UserRegisteredAccountExists>
+    <UserRegisteredAddFeedMessage>%s registered the nick %s</UserRegisteredAddFeedMessage>
+    <UserRegisteredAdd>Registered the nick %s with password %s @ %s</UserRegisteredAdd>
+    <UserRegisteredDelFeedMessage>%s unregistered the nick %s</UserRegisteredDelFeedMessage>
+    <UserRegisteredDel>The nick %s has been unregistered</UserRegisteredDel>
+    <UserRegisteredListExactSubHeader>Nick: %s</UserRegisteredListExactSubHeader>
+    <UserRegisteredListExactPass>Pass: %s</UserRegisteredListExactPass>
+    <UserRegisteredListExactCreated>Created: %s</UserRegisteredListExactCreated>
+    <UserRegisteredListExactLastUsed>Last used: %s</UserRegisteredListExactLastUsed>
+    <UserRegisteredListExactLastUsedNever>Last used: [Never]</UserRegisteredListExactLastUsedNever>
+    <UserRegisteredSetPass>The password of %s has been updated to: %s</UserRegisteredSetPass>
+    <UserRegisteredShowPass>The password of %s is: %s</UserRegisteredShowPass>
+    <LockHubParmError>Incorrect parameter, lock can be &quot;on&quot; or &quot;off&quot;</LockHubParmError>
+    <LockHubAlreadyLocked>The hub is already locked</LockHubAlreadyLocked>
+    <LockHubAlreadyUnLocked>The hub is already unlocked</LockHubAlreadyUnLocked>
+    <LockHubLockSuccess>The hub has been locked</LockHubLockSuccess>
+    <LockHubFeedLockSuccess>The hub was locked by: %s</LockHubFeedLockSuccess>
+    <LockHubUnLockSuccess>The hub has been unlocked</LockHubUnLockSuccess>
+    <LockHubUnLockFailed>The hub failed to unlock the hub, listning port may already be in use!</LockHubUnLockFailed>
+    <LockHubFeedUnLockSuccess>The hub was unlocked by: %s</LockHubFeedUnLockSuccess>
+    <RedirectAll>You&apos;ve redirected %d users to %s</RedirectAll>
+    <RedirectAllWithReason>You&apos;ve redirected %d users to %s because: %s</RedirectAllWithReason>
+    <RedirectAllFeed>%s redirected all possible (%d users) to: %s</RedirectAllFeed>
+    <SetTopicProfileAccessError>The topic has been set by someone stronger than you</SetTopicProfileAccessError>
+    <SetTopicUpdated>Topic was updated to: %s</SetTopicUpdated>
+    <SetTopicDelete>Topic deleted</SetTopicDelete>
+    <SetTopicAlreadyDeleted>There is no topic</SetTopicAlreadyDeleted>
+    <SetTopicBroadcastUpdate>The topic has been changed by %s to: %s</SetTopicBroadcastUpdate>
+    <SetTopicBroadcastDelete>The topic has been deleted by %s</SetTopicBroadcastDelete>
+    <SetTopicFeedDelete>Topic deleted by: %s</SetTopicFeedDelete>
+    <SetTopicFeedUpdate>Topic updated by %s to: %s</SetTopicFeedUpdate>
+    <SetTopicTooLong>Your topic is too long, please choose a shorter one.</SetTopicTooLong>
+    <SaveAllSettingsSuccess>All settings successfully saved</SaveAllSettingsSuccess>
+    <SaveAllSettingsFailed>An unknown error occured while saving, all or parts of the settings might not have been saved.</SaveAllSettingsFailed>
+    <SetRedirectsShowHeader>Current redirects:</SetRedirectsShowHeader>
+    <SetRedirectsShowDisabled>[disabled]</SetRedirectsShowDisabled>
+    <SetRedirectsShowOnHubFull>On full hub: %s</SetRedirectsShowOnHubFull>
+    <SetRedirectsShowOnIncorrectISP>On incorrect ISP: %s</SetRedirectsShowOnIncorrectISP>
+    <SetRedirectsShowOnLowShare>On too small share: %s</SetRedirectsShowOnLowShare>
+    <SetRedirectsShowOnHighShare>On too big share: %s</SetRedirectsShowOnHighShare>
+    <SetRedirectsShowOnRegOnly>On reg. only: %s</SetRedirectsShowOnRegOnly>
+    <SetRedirectsShowOnPassive>On passive mode: %s</SetRedirectsShowOnPassive>
+    <SetRedirectsShowOnNoTag>On no MyINFO tag: %s</SetRedirectsShowOnNoTag>
+    <SetRedirectsShowOnHighHubs>On too many hubs: %s</SetRedirectsShowOnHighHubs>
+    <SetRedirectsShowOnLowSlots>On not enough slots: %s</SetRedirectsShowOnLowSlots>
+    <SetRedirectsShowOnHighSlots>On too many slots: %s</SetRedirectsShowOnHighSlots>
+    <SetRedirectsShowOnLowSlotRatio>On low slotratio: %s</SetRedirectsShowOnLowSlotRatio>
+    <SetRedirectsShowOnBaned>On banned: %s</SetRedirectsShowOnBaned>
+    <SetRedirectsAvailableTypes>Available types are: %s</SetRedirectsAvailableTypes>
+    <SetRedirectsAll>You&apos;ve updated the redirect address to: %s on following types: %s</SetRedirectsAll>
+    <SetRedirectsRemoveAll>You&apos;ve removed redirect on the following types: %s</SetRedirectsRemoveAll>
+    <SetRedirectsFeedAll>%s updated the redirect address to: %s on following types: %s</SetRedirectsFeedAll>
+    <SetRedirectsFeedRemoveAll>%s removed redirect on the following types: %s</SetRedirectsFeedRemoveAll>
+    <SetRedirectsFull>You&apos;ve updated the redirect address to: %s on hub full</SetRedirectsFull>
+    <SetRedirectsRemoveFull>You&apos;ve removed redirect on hub full</SetRedirectsRemoveFull>
+    <SetRedirectsFeedFull>%s updated the redirect address to: %s on hub full</SetRedirectsFeedFull>
+    <SetRedirectsFeedRemoveFull>%s removed redirect on hub full</SetRedirectsFeedRemoveFull>
+    <SetRedirectsISP>You&apos;ve updated the redirect address to: %s on incorrect ISP/IP</SetRedirectsISP>
+    <SetRedirectsRemoveISP>You&apos;ve removed redirect on incorrect ISP/IP</SetRedirectsRemoveISP>
+    <SetRedirectsFeedISP>%s updated the redirect address to: %s on incorrect ISP/IP</SetRedirectsFeedISP>
+    <SetRedirectsFeedRemoveISP>%s removed redirect on incorrect ISP/IP</SetRedirectsFeedRemoveISP>
+    <SetRedirectsLowShare>You&apos;ve updated the redirect address to: %s on low share</SetRedirectsLowShare>
+    <SetRedirectsRemoveLowShare>You&apos;ve removed redirect on low share</SetRedirectsRemoveLowShare>
+    <SetRedirectsFeedLowShare>%s updated the redirect address to: %s on low share</SetRedirectsFeedLowShare>
+    <SetRedirectsFeedRemoveLowShare>%s removed redirect on low share</SetRedirectsFeedRemoveLowShare>
+    <SetRedirectsHighShare>You&apos;ve updated the redirect address to: %s on high share</SetRedirectsHighShare>
+    <SetRedirectsRemoveHighShare>You&apos;ve removed redirect on high share</SetRedirectsRemoveHighShare>
+    <SetRedirectsFeedHighShare>%s updated the redirect address to: %s on high share</SetRedirectsFeedHighShare>
+    <SetRedirectsFeedRemoveHighShare>%s removed redirect on high share</SetRedirectsFeedRemoveHighShare>
+    <SetRedirectsRegOnly>You&apos;ve updated the redirect address to: %s on reg. only hub</SetRedirectsRegOnly>
+    <SetRedirectsRemoveRegOnly>You&apos;ve removed redirect on reg. only hub</SetRedirectsRemoveRegOnly>
+    <SetRedirectsFeedRegOnly>%s updated the redirect address to: %s on reg. only hub</SetRedirectsFeedRegOnly>
+    <SetRedirectsFeedRemoveRegOnly>%s removed redirect on reg. only hub</SetRedirectsFeedRemoveRegOnly>
+    <SetRedirectsPassive>You&apos;ve updated the redirect address to: %s on passive mode</SetRedirectsPassive>
+    <SetRedirectsRemovePassive>You&apos;ve removed redirect on passive mode</SetRedirectsRemovePassive>
+    <SetRedirectsFeedPassive>%s updated the redirect address to: %s on passive mode</SetRedirectsFeedPassive>
+    <SetRedirectsFeedRemovePassive>%s removed redirect on passive mode</SetRedirectsFeedRemovePassive>
+    <SetRedirectsNoTag>You&apos;ve updated the redirect address to: %s on no description (MyINFO) tag</SetRedirectsNoTag>
+    <SetRedirectsRemoveNoTag>You&apos;ve removed redirect on no description (MyINFO) tag</SetRedirectsRemoveNoTag>
+    <SetRedirectsFeedNoTag>%s updated the redirect address to: %s on no description (MyINFO) tag</SetRedirectsFeedNoTag>
+    <SetRedirectsFeedRemoveNoTag>%s removed redirect on no description (MyINFO) tag</SetRedirectsFeedRemoveNoTag>
+    <SetRedirectsHubs>You&apos;ve updated the redirect address to: %s on too many hubs</SetRedirectsHubs>
+    <SetRedirectsRemoveHubs>You&apos;ve removed redirect on too many hubs</SetRedirectsRemoveHubs>
+    <SetRedirectsFeedHubs>%s updated the redirect address to: %s on too many hubs</SetRedirectsFeedHubs>
+    <SetRedirectsFeedRemoveHubs>%s removed redirect on too many hubs</SetRedirectsFeedRemoveHubs>
+    <SetRedirectsLowSlots>You&apos;ve updated the redirect address to: %s on too few slots</SetRedirectsLowSlots>
+    <SetRedirectsRemoveLowSlots>You&apos;ve removed redirect on too few slots</SetRedirectsRemoveLowSlots>
+    <SetRedirectsFeedLowSlots>%s updated the redirect address to: %s on too few slots</SetRedirectsFeedLowSlots>
+    <SetRedirectsFeedRemoveLowSlots>%s removed redirect on too few slots</SetRedirectsFeedRemoveLowSlots>
+    <SetRedirectsHighSlots>You&apos;ve updated the redirect address to: %s on too many slots</SetRedirectsHighSlots>
+    <SetRedirectsRemoveHighSlots>You&apos;ve removed redirect on too many slots</SetRedirectsRemoveHighSlots>
+    <SetRedirectsFeedHighSlots>%s updated the redirect address to: %s on too many slots</SetRedirectsFeedHighSlots>
+    <SetRedirectsFeedRemoveHighSlots>%s removed redirect on too many slots</SetRedirectsFeedRemoveHighSlots>
+    <SetRedirectsSlotratio>You&apos;ve updated the redirect address to: %s on too low slotratio</SetRedirectsSlotratio>
+    <SetRedirectsRemoveSlotratio>You&apos;ve removed redirect on too low slotratio</SetRedirectsRemoveSlotratio>
+    <SetRedirectsFeedSlotratio>%s updated the redirect address to: %s on too low slotratio</SetRedirectsFeedSlotratio>
+    <SetRedirectsFeedRemoveSlotratio>%s removed redirect on too low slotratio</SetRedirectsFeedRemoveSlotratio>
+    <SetRedirectsBanned>You&apos;ve updated the redirect address to: %s when banned</SetRedirectsBanned>
+    <SetRedirectsRemoveBanned>You&apos;ve removed redirect when banned</SetRedirectsRemoveBanned>
+    <SetRedirectsFeedBanned>%s updated the redirect address to: %s when banned</SetRedirectsFeedBanned>
+    <SetRedirectsFeedRemoveBanned>%s removed redirect when banned</SetRedirectsFeedRemoveBanned>
+    <SetPacePace0>Coma</SetPacePace0>
+    <SetPacePace1>Sleeping</SetPacePace1>
+    <SetPacePace2>Turtle</SetPacePace2>
+    <SetPacePace3>Lazy</SetPacePace3>
+    <SetPacePace4>Normal</SetPacePace4>
+    <SetPacePace5>Rabbit</SetPacePace5>
+    <SetPacePace6>Cheetah</SetPacePace6>
+    <SetPaceWorkInvalidParm>The pace may be one of the following: 0 = Coma, 1 = Sleeping, 2 = Turtle, 3 = Lazy, 4 = Normal, 5 = Rabbit or 6 = Cheetah</SetPaceWorkInvalidParm>
+    <SetPaceSuccess>The pace has been updated to: %s</SetPaceSuccess>
+    <SetPaceTheSame>The pace is already: %s</SetPaceTheSame>
+    <SetPaceFeedMessage>The pace has been updated to %s by %s</SetPaceFeedMessage>
+    <SetUserLimitInvalidParameter>The userlimit has to be an integer value, Ex. &quot;3000&quot;</SetUserLimitInvalidParameter>
+    <SetUserLimit>Current userlimit was updated to: %d</SetUserLimit>
+    <SetUserLimitFeed>%s updated userlimit to %d</SetUserLimitFeed>
+    <SetConnSettingUpdatedFeedMessage>The connection restrictions of the hub has been changed by %s</SetConnSettingUpdatedFeedMessage>
+    <SetSlotRatioDisabled>The slotratio has been disabled</SetSlotRatioDisabled>
+    <SetSlotRatioUpdated>The slotratio has been updated to %d</SetSlotRatioUpdated>
+    <SetShareIncorrectShare>The share parameter has to be an integer value (sufixes: KiB, MiB, GiB, TiB, PiB)</SetShareIncorrectShare>
+    <SetMinShareDisabled>Min share has been disabled</SetMinShareDisabled>
+    <SetMinShareUpdated>Min share has been updated to: %s</SetMinShareUpdated>
+    <SetMaxShareDisabled>Max share has been disabled</SetMaxShareDisabled>
+    <SetMaxShareUpdated>Max share has been updated to %s</SetMaxShareUpdated>
+    <SetHubsInvalidHubParameter>The hubs parameter is incorrect, hub has to be a positive integer value between 1-99, or zero to disable</SetHubsInvalidHubParameter>
+    <SetHubsDisabled>Required hubs have been disabled</SetHubsDisabled>
+    <SetHubsUpdated>Required hubs have been updated to %d</SetHubsUpdated>
+    <SetSlotsInvalidSlotsParameter>The slots parameter is incorrect, slots have to be a positive integer value between 1-99, or zero to disable</SetSlotsInvalidSlotsParameter>
+    <SetMinSlotsDisabled>Min slots has been disabled</SetMinSlotsDisabled>
+    <SetMinSlotsUpdated>Min slots has been updated to %d</SetMinSlotsUpdated>
+    <SetMaxSlotsDisabled>Max slots has been disabled</SetMaxSlotsDisabled>
+    <SetMaxSlotsUpdated>Max slots has been updated to %d</SetMaxSlotsUpdated>
+    <SetSlotRatioInvalidRatioParameter>The slotratio parameter is incorrect, slotratio has to be a positive integer value between 1-99, or zero to disable</SetSlotRatioInvalidRatioParameter>
+    <LockMainChatInvalidParameter>You need to either supply &quot;on&quot; locking mainchat or &quot;off&quot; unlocking it</LockMainChatInvalidParameter>
+    <LockMainChatLocked>You&apos;ve locked mainchat, as of now only operators and allowed users will be able to speak in mainchat</LockMainChatLocked>
+    <LockMainChatAlreadyLocked>Mainchat is already locked</LockMainChatAlreadyLocked>
+    <LockMainChatUnLocked>You&apos;ve unlocked mainchat allowing all users to speak as normal</LockMainChatUnLocked>
+    <LockMainChatNotLocked>Mainchat isn&apos;t locked</LockMainChatNotLocked>
+    <LockMainChatLockedFeed>Mainchat has been locked by %s</LockMainChatLockedFeed>
+    <LockMainChatLockedMessage>Mainchat is currently locked, all chatting is disabled</LockMainChatLockedMessage>
+    <LockMainChatUnLockedFeed>Mainchat has been unlocked by %s</LockMainChatUnLockedFeed>
+    <LockMainChatUnLockedMessage>Mainchat is now unlocked, everything is back to normal</LockMainChatUnLockedMessage>
+    <AllowMCMainChatNotLocked>The mainchat isn&apos;t locked</AllowMCMainChatNotLocked>
+    <AllowMCProtected>%s hardly needs your permission to talk</AllowMCProtected>
+    <AllowMCNotFound>The user %s wasn&apos;t found</AllowMCNotFound>
+    <AllowMCUserIsOperator>%s is an operator and will automatically be allowed to speak</AllowMCUserIsOperator>
+    <AllowMCAlreadyAllow>%s is already allowed to speak in mainchat</AllowMCAlreadyAllow>
+    <AllowMCUserAllowed>%s has been allowed to speak in mainchat</AllowMCUserAllowed>
+    <AllowMCUserMessage>You&apos;ve been allowed to speak in mainchat even though it&apos;s locked</AllowMCUserMessage>
+    <AllowMCFeedMessage>%s has been allowed to speak in mainchat by %s</AllowMCFeedMessage>
+    <DisAllowMCUserIsOperator>%s is an operator thus you&apos;re not allowed to disallow him to speak, use mute command instead</DisAllowMCUserIsOperator>
+    <DisAllowMCNotAllowed>%s isn&apos;t allowed to speak in mainchat</DisAllowMCNotAllowed>
+    <DisAllowMCDisallowed>%s has been disallowed from speaking in mainchat</DisAllowMCDisallowed>
+    <DisAllowMCUserMessage>You&apos;re no longer allowed to speak in mainchat</DisAllowMCUserMessage>
+    <DisAllowMCFeedMessage>%s has been disallowed from speaking in mainchat by %s</DisAllowMCFeedMessage>
+    <IPInfoNotAValidIPOrRange>The parameter you&apos;ve supplied isn&apos;t a valid IP/IP pattern</IPInfoNotAValidIPOrRange>
+    <HideShareForced>You&apos;re forced to hide your share due to profile settings</HideShareForced>
+    <HideShareInvalidParameter>You need to either supply &quot;on&quot; hiding your share or &quot;off&quot; showing it again</HideShareInvalidParameter>
+    <HideShareAlreadyHidden>Your share is already hidden</HideShareAlreadyHidden>
+    <HideShareEnabled>Your share has now been hidden</HideShareEnabled>
+    <HideShareNotHidden>Your share isn&apos;t hidden</HideShareNotHidden>
+    <HideShareDisabled>Your share is now visible again</HideShareDisabled>
+    <HideShareDisabledNoShare>Your share is now visible again, though you do not share anything</HideShareDisabledNoShare>
+    <HideMeInvalidParameter>You need to either supply &quot;on&quot; hiding yourself (don&apos;t show in nicklist) or &quot;off&quot; showing you again</HideMeInvalidParameter>
+    <HideMeAlreadyHidden>Your already hidden (you&apos;ll always see yourself in nicklist)</HideMeAlreadyHidden>
+    <HideMeEnabled>You&apos;re now hidden, other users can no longer see you in nicklist</HideMeEnabled>
+    <HideMeNotHidden>You&apos;re currently not hidden!</HideMeNotHidden>
+    <HideMeDisabled>You&apos;re not hidden anymore, other users can now see you again in nicklist</HideMeDisabled>
+    <PMProfileProfileDontExists>Profile does not exist, type %s to list profiles</PMProfileProfileDontExists>
+    <PMProfileProfileAccessError>You&apos;re not allowed to send messages to users of this profile</PMProfileProfileAccessError>
+    <TextCommandNotFound>The text command %s wasn&apos;t found</TextCommandNotFound>
+    <EnableTextCommandInvalidParameter>You need to either supply &quot;on&quot; enabling the text command or &quot;off&quot; disabling it</EnableTextCommandInvalidParameter>
+    <EnableTextCommandProfileAccessError>You&apos;re not allowed to edit a text command of this level</EnableTextCommandProfileAccessError>
+    <EnableTextCommandEnabled>The text command %s was enabled</EnableTextCommandEnabled>
+    <EnableTextCommandAlreadyEnabled>The text command %s is already enabled</EnableTextCommandAlreadyEnabled>
+    <EnableTextCommandEnabledFeedMessage>The text command %s was enabled by %s</EnableTextCommandEnabledFeedMessage>
+    <EnableTextCommandDisabled>The text command %s was disabled</EnableTextCommandDisabled>
+    <EnableTextCommandAlreadyDisabled>The text command %s is already disabled</EnableTextCommandAlreadyDisabled>
+    <EnableTextCommandDisabledFeedMessage>The text command %s was disabled by %s</EnableTextCommandDisabledFeedMessage>
+    <ShowTextCommandProfileAccessError>You&apos;re not allowed to edit a text command of this level</ShowTextCommandProfileAccessError>
+    <ShowTextCommandContent>The content of %s:</ShowTextCommandContent>
+    <SetTextCommandProfileAccessError>You&apos;re not allowed to edit a text command of this level</SetTextCommandProfileAccessError>
+    <SetTextCommandContent>The content of %s has been updated</SetTextCommandContent>
+    <RedirectUser>You&apos;ve redirected %s to %s</RedirectUser>
+    <BlockUserNotFound>The user you&apos;re trying to block couldn&apos;t be found</BlockUserNotFound>
+    <BlockUserUnBlockAble>This user is protected by Lord Yoshi himself, trust me you do NOT wanna do this</BlockUserUnBlockAble>
+    <BlockUserTooLowAccountLvl>This user is too powerful for a safe victory</BlockUserTooLowAccountLvl>
+    <BlockUserBlocked>%s was blocked from searching and downloading</BlockUserBlocked>
+    <BlockUserAlreadyBlocked>%s is already blocked</BlockUserAlreadyBlocked>
+    <BlockUserFeedMessage>%s was blocked by %s</BlockUserFeedMessage>
+    <UnBlockUserTooStrongBlock>The block is set by a stronger user</UnBlockUserTooStrongBlock>
+    <UnBlockUserSuccess>%s was unblocked, enabling searching and downloading</UnBlockUserSuccess>
+    <UnBlockUserNotBlocked>%s isn&apos;t blocked</UnBlockUserNotBlocked>
+    <UnBlockUserFeedMessage>%s was unblocked by %s</UnBlockUserFeedMessage>
+    <DropUserNotFound>The user you&apos;re trying to drop couldn&apos;t be found</DropUserNotFound>
+    <DropUserUnDropAble>This user is protected by Lord Yoshi himself, trust me you do NOT wanna do this</DropUserUnDropAble>
+    <DropUserTooLowAccountLvl>This user is too powerful for a safe victory</DropUserTooLowAccountLvl>
+    <DropUserDroped>%s was dropped from the hub</DropUserDroped>
+    <DropUserFeedMessage>%s was dropped by %s</DropUserFeedMessage>
+    <KickUserKicked>%s was kicked from the hub</KickUserKicked>
+    <BanUserNotFound>The user you&apos;re trying to ban couldn&apos;t be found</BanUserNotFound>
+    <BanUserUnBanAble>This user is protected by Lord Yoshi himself, trust me you do NOT wanna do this</BanUserUnBanAble>
+    <BanUserTooLowAccountLvl>This user is too powerful for a safe victory</BanUserTooLowAccountLvl>
+    <BanUserSuccess>%s, IP address: %s was banned by %s</BanUserSuccess>
+    <BanUserSuccessReason>%s, IP address: %s was banned by %s because: %s</BanUserSuccessReason>
+    <BanUserFeedMessage>%s was banned by %s</BanUserFeedMessage>
+    <BanUserFeedMessageReason>%s was banned by %s because: %s</BanUserFeedMessageReason>
+    <BanUserBanned>%s was banned from the hub</BanUserBanned>
+    <BanNickBanned>The nick: %s was banned from the hub</BanNickBanned>
+    <BanNickFeedMessage>The nick: %s was banned by %s</BanNickFeedMessage>
+    <BanNickFeedMessageReason>The nick: %s was banned by %s because: %s</BanNickFeedMessageReason>
+    <BanIPIncorrectIP>The IP/IP range you&apos;ve supplied is invalid</BanIPIncorrectIP>
+    <BanIPBanned>The IP/IP range: %s was banned from the hub</BanIPBanned>
+    <BanIPFeedMessage>The IP/IP range: %s was banned by %s</BanIPFeedMessage>
+    <BanIPFeedMessageReason>The IP/IP range: %s was banned by %s because: %s</BanIPFeedMessageReason>
+    <BanDNSBanned>The DNS/DNS pattern: %s was banned from the hub</BanDNSBanned>
+    <BanDNSFeedMessage>The DNS/DNS pattern: %s was banned by %s</BanDNSFeedMessage>
+    <BanDNSFeedMessageReason>The DNS/DNS pattern: %s was banned by %s because: %s</BanDNSFeedMessageReason>
+    <BanClientBanned>The client/client pattern: %s was banned from the hub</BanClientBanned>
+    <BanClientFeedMessage>The client/client pattern: %s was banned by %s</BanClientFeedMessage>
+    <BanClientFeedMessageReason>The client/client pattern: %s was banned by %s because: %s</BanClientFeedMessageReason>
+    <BanTimeIncorrectHours>The &lt;time&gt; parameter has to be a positive integer representing expiretime (hours)</BanTimeIncorrectHours>
+    <TBanUserSuccess>%s, IP address: %s was banned for %d hours by %s</TBanUserSuccess>
+    <TBanUserSuccessReason>%s, IP address: %s was banned for %d hours by %s because: %s</TBanUserSuccessReason>
+    <TBanUserBanned>%s was banned for %d hours from the hub</TBanUserBanned>
+    <TBanUserFeedMessage>%s was banned for %d hours by %s</TBanUserFeedMessage>
+    <TBanUserFeedMessageReason>%s was banned for %d hours by %s because: %s</TBanUserFeedMessageReason>
+    <TBanNickBanned>The nick: %s was banned for %d hours from the hub</TBanNickBanned>
+    <TBanNickFeedMessage>The nick: %s was banned for %d hours by %s</TBanNickFeedMessage>
+    <TBanNickFeedMessageReason>The nick: %s was banned for %d hours by %s because: %s</TBanNickFeedMessageReason>
+    <TBanIPBanned>The IP/IP range: %s was banned for %d hours from the hub</TBanIPBanned>
+    <TBanIPFeedMessage>The IP/IP range: %s was banned for %d hours by %s</TBanIPFeedMessage>
+    <TBanIPFeedMessageReason>The IP/IP range: %s was banned for %d hours by %s because: %s</TBanIPFeedMessageReason>
+    <TBanDNSBanned>The DNS/DNS pattern: %s was banned for %d hours from the hub</TBanDNSBanned>
+    <TBanDNSFeedMessage>The DNS/DNS pattern: %s was banned for %d hours by %s</TBanDNSFeedMessage>
+    <TBanDNSFeedMessageReason>The DNS/DNS pattern: %s was banned for %d hours by %s because: %s</TBanDNSFeedMessageReason>
+    <UnBanUserTooLowAccountLvl>This ban was issued by a more powerful user, you decide to leave it as you do not want to upset him</UnBanUserTooLowAccountLvl>
+    <UnBanNick>The nick/nick pattern: %s was removed from the banlist</UnBanNick>
+    <UnBanNickFeedMessage>The nick/nick pattern: %s was unbanned by %s</UnBanNickFeedMessage>
+    <UnBanIP>The IP/IP range: %s was removed from the banlist</UnBanIP>
+    <UnBanIPFeedMessage>The IP/IP range: %s was unbanned by %s</UnBanIPFeedMessage>
+    <UnBanDNS>The DNS/DNS pattern: %s was removed from the banlist</UnBanDNS>
+    <UnBanDNSFeedMessage>The DNS/DNS pattern: %s was unbanned by %s</UnBanDNSFeedMessage>
+    <UnBanClient>The client/client pattern: %s was removed from the banlist</UnBanClient>
+    <UnBanClientFeedMessage>The client/client pattern: %s was unbanned by %s</UnBanClientFeedMessage>
+    <UnBanClientFailed>The client/client pattern %s wasn&apos;t found in the banlist</UnBanClientFailed>
+    <UnBanFailed>%s wasn&apos;t found in any banlist</UnBanFailed>
+    <ShowBanExactListSubHeader>Ban: %s</ShowBanExactListSubHeader>
+    <ShowBanExactBannedBy>Banned by: %s</ShowBanExactBannedBy>
+    <ShowBanExactIssued>Issued: %s</ShowBanExactIssued>
+    <ShowBanExactExpires>Expires: %s</ShowBanExactExpires>
+    <ShowBanExactExpiresPermanent>Expires: [Permanent]</ShowBanExactExpiresPermanent>
+    <ShowBanExactLastUsed>Last used: %s</ShowBanExactLastUsed>
+    <ShowBanExactLastUsedNever>Last used: [Never]</ShowBanExactLastUsedNever>
+    <ShowBanExactReason>Reason: %s</ShowBanExactReason>
+    <ShowBanExactNoReason>Reason: [None]</ShowBanExactNoReason>
+    <ShowBansPermanent>[Permanent]</ShowBansPermanent>
+    <ClearNickBans>%d nick bans removed of a total of %d bans</ClearNickBans>
+    <ClearNickBansFeedMessage>%d nick bans removed of a total of %d bans by %s</ClearNickBansFeedMessage>
+    <ClearIPBans>%d IP bans removed of a total of %d bans</ClearIPBans>
+    <ClearIPBansFeedMessage>%d IP bans removed of a total of %d bans by %s</ClearIPBansFeedMessage>
+    <ClearDNSBans>%d DNS bans removed</ClearDNSBans>
+    <ClearDNSBansFeedMessage>%d DNS bans removed by %s</ClearDNSBansFeedMessage>
+    <ClearClientBans>%d client bans removed</ClearClientBans>
+    <ClearClientBansFeedMessage>%d client bans removed by %s</ClearClientBansFeedMessage>
+    <ClearTempBanIncorrectLimit>The &lt;limit&gt; parameter has to be a positive integer</ClearTempBanIncorrectLimit>
+    <ShowTempBansNick>Nick: </ShowTempBansNick>
+    <ShowTempBansIP>IP: </ShowTempBansIP>
+    <ShowTempBansTimeLeft>Time: </ShowTempBansTimeLeft>
+    <ShowTempBansReason>Reason: </ShowTempBansReason>
+    <ISPNotFound>The ISP %s wasn&apos;t found</ISPNotFound>
+    <AddISPAlreadyExists>The ISP %s already exists</AddISPAlreadyExists>
+    <AddISPAdded>The ISP %s was added</AddISPAdded>
+    <AddISPFeedMessage>%s has added the ISP %s</AddISPFeedMessage>
+    <DelISPNotFound>The ISP %s wasn&apos;t found</DelISPNotFound>
+    <DelISPDeleted>The ISP %s was deleted</DelISPDeleted>
+    <DelISPFeedMessage>%s has deleted the ISP %s</DelISPFeedMessage>
+    <ISPShowSingelHitName>Name: %s</ISPShowSingelHitName>
+    <ISPShowSingelHitDescription>Description: %s</ISPShowSingelHitDescription>
+    <ISPShowSingelHitPrefix>Prefix: %s</ISPShowSingelHitPrefix>
+    <ISPShowSingelHitMinShareDisabled>Min share: [disabled]</ISPShowSingelHitMinShareDisabled>
+    <ISPShowSingelHitMinShare>Min share: %s</ISPShowSingelHitMinShare>
+    <ISPShowSingelHitMaxShareDisabled>Max share: [disabled]</ISPShowSingelHitMaxShareDisabled>
+    <ISPShowSingelHitMaxShare>Max share: %s</ISPShowSingelHitMaxShare>
+    <ISPShowSingelHitMaxHubsDisabled>Max hubs: [disabled]</ISPShowSingelHitMaxHubsDisabled>
+    <ISPShowSingelHitMaxHubs>Max hubs: %d</ISPShowSingelHitMaxHubs>
+    <ISPShowSingelHitMinSlotsDisabled>Min slots: [disabled]</ISPShowSingelHitMinSlotsDisabled>
+    <ISPShowSingelHitMinSlots>Min slots: %d</ISPShowSingelHitMinSlots>
+    <ISPShowSingelHitMaxSlotsDisabled>Max slots: [disabled]</ISPShowSingelHitMaxSlotsDisabled>
+    <ISPShowSingelHitMaxSlots>Max slots: %d</ISPShowSingelHitMaxSlots>
+    <ISPShowSingelHitSlotratioDisabled>Slotratio: [disabled]</ISPShowSingelHitSlotratioDisabled>
+    <ISPShowSingelHitSlotratio>Slotratio: %d</ISPShowSingelHitSlotratio>
+    <ISPShowSingelHitMayBeInPassiveModeYes>May connect using passive mode: Yes</ISPShowSingelHitMayBeInPassiveModeYes>
+    <ISPShowSingelHitMayBeInPassiveModeNo>May connect using passive mode: No</ISPShowSingelHitMayBeInPassiveModeNo>
+    <ISPShowSingelHitAllowTagLessToByPassYes>Allowed to bypass hubs/slots checks if no tag: Yes</ISPShowSingelHitAllowTagLessToByPassYes>
+    <ISPShowSingelHitAllowTagLessToByPassNo>Allowed to bypass hubs/slots checks if no tag: No</ISPShowSingelHitAllowTagLessToByPassNo>
+    <ISPShowPrefix>Prefix: </ISPShowPrefix>
+    <ISPMatchFound>Best match for %s is: %s</ISPMatchFound>
+    <ISPMatchNotFound>No ISP matching %s found</ISPMatchNotFound>
+    <ISPShareIncorrectShare>The share parameter isn&apos;t wellformed, use an integer value (sufixes: KiB, MiB, GiB, TiB, PiB)</ISPShareIncorrectShare>
+    <ISPUpdatedFeedMessage>The ISP %s has been updated by %s</ISPUpdatedFeedMessage>
+    <ISPMinShareDisabled>Min share of %s has been disabled</ISPMinShareDisabled>
+    <ISPMinShareUpdated>Min share of %s has been updated to %s</ISPMinShareUpdated>
+    <ISPMaxShareDisabled>Max share of %s has been disabled</ISPMaxShareDisabled>
+    <ISPMaxShareUpdated>Max share of %s has been updated to %s</ISPMaxShareUpdated>
+    <ISPHubsInvalidHubParameter>The hubs parameter is incorrect, hub has to be a positive integer value between 1-99, or zero to disable</ISPHubsInvalidHubParameter>
+    <ISPHubsDisabled>Required hubs of %s has been disabled</ISPHubsDisabled>
+    <ISPHubsUpdated>Required hubs of %s has been updated to %d</ISPHubsUpdated>
+    <ISPSlotsInvalidSlotsParameter>The slots parameter is incorrect, slots has to be a positive integer value between 1-99, or zero to disable</ISPSlotsInvalidSlotsParameter>
+    <ISPMinSlotsDisabled>Min slots of %s has been disabled</ISPMinSlotsDisabled>
+    <ISPMinSlotsUpdated>Min slots of %s has been updated to %d</ISPMinSlotsUpdated>
+    <ISPMaxSlotsDisabled>Max slots of %s has been disabled</ISPMaxSlotsDisabled>
+    <ISPMaxSlotsUpdated>Max slots of %s has been updated to %d</ISPMaxSlotsUpdated>
+    <ISPSlotRatioInvalidRatioParameter>The slotratio parameter is incorrect, slotratio has to be a positive integer value between 1-99, or zero to disable</ISPSlotRatioInvalidRatioParameter>
+    <ISPSlotRatioDisabled>The slotratio of %s has been disabled</ISPSlotRatioDisabled>
+    <ISPSlotRatioUpdated>The slotratio of %s has been updated to %d</ISPSlotRatioUpdated>
+    <ISPShowIPsOnIPSubHeader>On ISP: %s</ISPShowIPsOnIPSubHeader>
+    <ISPInvalidIP>The IP/IP range you&apos;ve supplied isn&apos;t valid</ISPInvalidIP>
+    <ISPAddIPAlreadyExists>%s already exists, registered to %s</ISPAddIPAlreadyExists>
+    <ISPAddIPAdded>%s was added to %s</ISPAddIPAdded>
+    <ISPAddIPFeedMessage>%s was added to %s by %s</ISPAddIPFeedMessage>
+    <ISPDelIPNotFound>%s wasn&apos; found</ISPDelIPNotFound>
+    <ISPDelIPDeleted>%s was deleted from %s</ISPDelIPDeleted>
+    <ISPDelIPFeedMessage>%s was delete from %s by %s</ISPDelIPFeedMessage>
+    <MuteUserNotFound>The user %s wasn&apos;t found</MuteUserNotFound>
+    <MuteProfileAccessError>This user is too powerful for a safe victory</MuteProfileAccessError>
+    <MuteImpossible>This user is protected by Lord Yoshi himself, trust me you do NOT wanna do this</MuteImpossible>
+    <MutedSuccess>%s has been muted</MutedSuccess>
+    <MutedAlreadyMuted>%s is already muted</MutedAlreadyMuted>
+    <MutedFeed>%s muted %s</MutedFeed>
+    <MutedAllUsers>%d user(s) out of %d were muted</MutedAllUsers>
+    <MutedAllUsersFeed>%s muted %d out of %d user(s)</MutedAllUsersFeed>
+    <UnMuteTooStrongMute>This mute is set by a stronger user.</UnMuteTooStrongMute>
+    <UnMutedSuccess>%s has been unmuted</UnMutedSuccess>
+    <UnMutedNotMuted>%s isn&apos;t muted</UnMutedNotMuted>
+    <UnMutedFeed>%s unmuted %s</UnMutedFeed>
+    <UnMutedAllUsers>You&apos;ve unmuted %d users out of %d</UnMutedAllUsers>
+    <UnMutedAllUsersFeed>%s unmuted %d out of %d user(s)</UnMutedAllUsersFeed>
+    <KennylizeUserNotFound>The user %s wasn&apos;t found</KennylizeUserNotFound>
+    <KennylizeProfileAccessError>This user is too powerful for a safe victory</KennylizeProfileAccessError>
+    <KennylizeImpossible>This user is protected by Lord Yoshi himself, trust me you do NOT wanna do this</KennylizeImpossible>
+    <KennylizedSuccess>%s has been kennylized</KennylizedSuccess>
+    <KennylizedAlreadyKennylized>%s is already kennylized</KennylizedAlreadyKennylized>
+    <KennylizedFeed>%s kennylized %s</KennylizedFeed>
+    <KennylizedAllUsers>%d user(s) out of %d were kennylized</KennylizedAllUsers>
+    <KennylizedAllUsersFeed>%s kennylized %d out of %d user(s)</KennylizedAllUsersFeed>
+    <UnKennylizeTooStrongKennylize>This kennylization is set by a stronger user.</UnKennylizeTooStrongKennylize>
+    <UnKennylizedSuccess>%s has been unkennylized</UnKennylizedSuccess>
+    <UnKennylizedNotKennylized>%s isn&apos;t kennylized</UnKennylizedNotKennylized>
+    <UnKennylizedFeed>%s unkennylized %s</UnKennylizedFeed>
+    <UnKennylizedAllUsers>You&apos;ve unkennylized %d users out of %d</UnKennylizedAllUsers>
+    <UnKennylizedAllUsersFeed>%s unkennylized %d out of %d users</UnKennylizedAllUsersFeed>
+    <LunarizedUserNotFound>The user %s wasn&apos;t found</LunarizedUserNotFound>
+    <LunarizedProfileAccessError>This user is too powerful for a safe victory</LunarizedProfileAccessError>
+    <LunarizedImpossible>This user is protected by Lord Yoshi himself, trust me you do NOT wanna do this</LunarizedImpossible>
+    <LunarizedSuccess>%s has been lunarized</LunarizedSuccess>
+    <LunarizedAlreadyLunarized>%s is already lunarized</LunarizedAlreadyLunarized>
+    <LunarizedFeed>%s lunarized %s</LunarizedFeed>
+    <LunarizedAllUsers>%d user(s) out of %d were lunarized</LunarizedAllUsers>
+    <LunarizedAllUsersFeed>%s lunarized %d out of %d user(s)</LunarizedAllUsersFeed>
+    <UnLunarizedTooStrongLunarize>This lunarization is set by a stronger user.</UnLunarizedTooStrongLunarize>
+    <UnLunarizedSuccess>%s has been unlunarized</UnLunarizedSuccess>
+    <UnLunarizedNotLunarized>%s isn&apos;t lunarized</UnLunarizedNotLunarized>
+    <UnLunarizedFeed>%s unlunarized %s</UnLunarizedFeed>
+    <UnLunarizedAllUsers>You&apos;ve unlunarized %d users out of %d</UnLunarizedAllUsers>
+    <UnLunarizedAllUsersFeed>%s unlunarized %d out of %d users</UnLunarizedAllUsersFeed>
+    <SayImpossible>This user is protected by Lord Yoshi himself, trust me you do NOT wanna do this</SayImpossible>
+    <SayProfileAccessError>This user is too powerful, out of pure fear you decide not to abuse his name</SayProfileAccessError>
+    <SayFeedMessage>%s spoke as %s saying: %s</SayFeedMessage>
+    <MCFeedMessage>%s sent a mainchat message: %s</MCFeedMessage>
+    <WarnUserNotFound>The user %s wasn&apos;t found</WarnUserNotFound>
+    <WarnImpossible>This user is protected by Lord Yoshi himself, trust me you do NOT wanna do this</WarnImpossible>
+    <WarnProfileAccessError>You decide you&apos;d better not warn this user after all</WarnProfileAccessError>
+    <WarnMessage>You have been warned, If you don&apos;t calm down you WILL be kicked from the hub</WarnMessage>
+    <WarnMessageReason>You have been warned because: %s, if you don&apos;t calm down you WILL be kicked from the hub</WarnMessageReason>
+    <WarnMCMessage>%s has been warned. If IT doesn&apos;t calm down IT WILL be kicked from the hub</WarnMCMessage>
+    <WarnMCMessageReason>%s has been warned because: %s. If IT doesn&apos;t calm down IT WILL be kicked from the hub</WarnMCMessageReason>
+    <InformUserNotFound>The user %s wasn&apos;t found</InformUserNotFound>
+    <InformImpossible>This user is protected by Lord Yoshi himself, trust me you do NOT wanna do this</InformImpossible>
+    <InformUserInformed>The user %s has been informed</InformUserInformed>
+    <PMFeedMessage>%s sent a broadcast message to everyone: %s</PMFeedMessage>
+    <OPMFeedMessage>%s sent a broadcast message to all operators: %s</OPMFeedMessage>
+    <PMProfileFeedMessage>%s sent a broadcast message to users of profile %s: %s</PMProfileFeedMessage>
+  </HubBot>
+  <UserStats>
+    <SingelHitNickGeneralInformation>General information:</SingelHitNickGeneralInformation>
+    <SingelHitNickUserOnline>User: %s (Online)</SingelHitNickUserOnline>
+    <SingelHitNickUserOffline>User: %s (Offline since %s)</SingelHitNickUserOffline>
+    <SingelHitNickProfile>Profile: %s (Permanent)</SingelHitNickProfile>
+    <SingelHitNickProfileExpires>Profile: %s (Account expires: %s)</SingelHitNickProfileExpires>
+    <SingelHitNickProfileNone>Profile: None</SingelHitNickProfileNone>
+    <SingelHitNickOperatorYes>Operator: Yes</SingelHitNickOperatorYes>
+    <SingelHitNickOperatorNo>Operator: No</SingelHitNickOperatorNo>
+    <SingelHitNickTimesKicked>Times kicked: %d</SingelHitNickTimesKicked>
+    <SingelHitNickMutedYes>Muted: Yes</SingelHitNickMutedYes>
+    <SingelHitNickMutedNo>Muted: No</SingelHitNickMutedNo>
+    <SingelHitNickKennylizedYes>Kennylized: Yes</SingelHitNickKennylizedYes>
+    <SingelHitNickKennylizedNo>Kennylized: No</SingelHitNickKennylizedNo>
+    <SingelHitNickLunarizedYes>Lunarized: Yes</SingelHitNickLunarizedYes>
+    <SingelHitNickLunarizedNo>Lunarized: No</SingelHitNickLunarizedNo>
+    <SingelHitNickBlockedYes>Blocked: Yes</SingelHitNickBlockedYes>
+    <SingelHitNickBlockedNo>Blocked: No</SingelHitNickBlockedNo>
+    <SingelHitNickIP>IP: %s (Connected: %s)</SingelHitNickIP>
+    <SingelHitNickDNS>DNS: %s</SingelHitNickDNS>
+    <SingelHitNickIPHistory>IP history:</SingelHitNickIPHistory>
+    <SingelHitNickIPEntry>From: %s	To: %s</SingelHitNickIPEntry>
+    <SingelHitNickIPEntryNoToDate>From: %s	To: Unknown</SingelHitNickIPEntryNoToDate>
+    <SingelHitNickIPEntryStillConnected>From: %s	To: Still connected</SingelHitNickIPEntryStillConnected>
+    <SingelHitNickShare>Sharesize: %s (exact size: %s)</SingelHitNickShare>
+    <SingelHitNickDescription>Description: %s</SingelHitNickDescription>
+    <SingelHitNickDescriptionTag>Tag: %s</SingelHitNickDescriptionTag>
+    <SingelHitNickDescriptionTagNone>Tag: No description tag found</SingelHitNickDescriptionTagNone>
+    <SingelHitNickEmail>Email: %s</SingelHitNickEmail>
+    <SingelHitNickPassiveYes>Passive: Yes</SingelHitNickPassiveYes>
+    <SingelHitNickPassiveNo>Passive: No</SingelHitNickPassiveNo>
+    <SingelHitNickHubs>Hubs: %d</SingelHitNickHubs>
+    <SingelHitNickSlots>Slots: %d</SingelHitNickSlots>
+    <SingelHitNickClient>Client: %s</SingelHitNickClient>
+    <ResultCantShow>You&apos;re not allowed to view this information</ResultCantShow>
+    <ResultHeader>Showing %d hits from offset %d, total hits: %d</ResultHeader>
+    <ResultHeaderSearch>On search: %s</ResultHeaderSearch>
+    <ResultHeaderSingelNick>Showing information on: %s</ResultHeaderSingelNick>
+    <ResultHeaderSingelIP>Showing information on: %s (Most recent %d hits)</ResultHeaderSingelIP>
+    <ResultRowNickOffline>(Offline since: %s)</ResultRowNickOffline>
+    <ResultRowNickOnline>(Online since: %s)</ResultRowNickOnline>
+    <ResultRowIP>(Last used: %s)</ResultRowIP>
+    <ResultRowIPSingel>(Used %d times, last used %s)</ResultRowIPSingel>
+    <ResultNickInfoOnlineHeader>Currently used by:</ResultNickInfoOnlineHeader>
+    <ResultNickInfoOfflineHeader>Previously used by:</ResultNickInfoOfflineHeader>
+    <ResultRowNickInfoTimeUsed>(used %d time)</ResultRowNickInfoTimeUsed>
+    <ResultRowNickInfoTimesUsed>(used %d times)</ResultRowNickInfoTimesUsed>
+  </UserStats>
+  <Feed>
+    <ActionFeed>[action]</ActionFeed>
+    <EventFeed>[event]</EventFeed>
+    <KickFeed>[kick]</KickFeed>
+    <ErrorFeed>[error]</ErrorFeed>
+    <GUIFeed>[GUI]</GUIFeed>
+  </Feed>
+  <MainChatScanner>
+    <KickTmpBanReason>Kicked for saying %s</KickTmpBanReason>
+    <KickMessage>You&apos;ve been kicked for saying: %s</KickMessage>
+    <DropMessage>You&apos;ve been dropped for saying: %s</DropMessage>
+  </MainChatScanner>
+  <IntegratedCommands>
+    <FirstIn>First one to connect was: %s</FirstIn>
+    <ShowTopic>Current topic is: %s</ShowTopic>
+    <ShowTopicNone>No topic has been set</ShowTopicNone>
+    <StatsHub>Hub: %s</StatsHub>
+    <StatsUptime>Uptime: %s</StatsUptime>
+    <StatsUsers>Online users: %d / %d</StatsUsers>
+    <StatsAllTimeUsers>All-time peak users: %d</StatsAllTimeUsers>
+    <UserRegisterMeIncorrectParameter>You&apos;ll need to supply a password (space isn&apos;t allowed)</UserRegisterMeIncorrectParameter>
+    <UserRegisterMeHasAccount>Your nick is already registered via an account</UserRegisterMeHasAccount>
+    <UserRegisterMeRegistered>Your nick has been registered, upon next connection you&apos;ll have to supply the password %s (this message is only visible to you)</UserRegisterMeRegistered>
+    <UserRegisterMeAlreadyRegistered>Your nick is already registered in this hub</UserRegisterMeAlreadyRegistered>
+    <UserUnRegisterMeNotFound>Your nick isn&apos;t registered in this hub</UserUnRegisterMeNotFound>
+    <UserUnRegisterMeUnRegistered>Your nick is no longer registered in this hub</UserUnRegisterMeUnRegistered>
+    <HistoryNotAllowed>You do not have access to this feature</HistoryNotAllowed>
+    <HistoryNonIntegerParameter>Parameter is not a number. Type 123, not ABC!</HistoryNonIntegerParameter>
+    <HistoryZeroParameter>You want YnHub to display nothing? Then be quiet fool!</HistoryZeroParameter>
+    <HistoryNegativeParameter>You want to know the future? Visit a fortune teller!</HistoryNegativeParameter>
+    <HistoryNoMainchatEntries>There are no mainchat entries yet</HistoryNoMainchatEntries>
+    <HistoryShowingLines>- Mainchat history [showing %d lines]:</HistoryShowingLines>
+  </IntegratedCommands>
+  <TextCommands>
+    <IncorrectParamterCount>You need to supply at least %d parameters</IncorrectParamterCount>
+  </TextCommands>
+  <GUI>
+    <cboSettingsWorkPace0>0 - Coma</cboSettingsWorkPace0>
+    <cboSettingsWorkPace1>1 - Sleeping</cboSettingsWorkPace1>
+    <cboSettingsWorkPace2>2 - Turtle</cboSettingsWorkPace2>
+    <cboSettingsWorkPace3>3 - Lazy</cboSettingsWorkPace3>
+    <cboSettingsWorkPace4>4 - Normal</cboSettingsWorkPace4>
+    <cboSettingsWorkPace5>5 - Rabbit</cboSettingsWorkPace5>
+    <cboSettingsWorkPace6>6 - Cheetah</cboSettingsWorkPace6>
+  </GUI>
+</Language>

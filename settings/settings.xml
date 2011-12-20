@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Settings version="1.036">
+  <Basic>
+    <Language>English</Language>
+    <HubPorts>411</HubPorts>
+    <MaxUsers>3000</MaxUsers>
+    <UsersPeak>10</UsersPeak>
+    <SharePeak>59368431466634</SharePeak>
+    <UptimePeak>1488561</UptimePeak>
+    <WorkPace>5</WorkPace>
+    <AutoStart enable="false"/>
+    <PromptOnShutDown enable="false"/>
+    <MinmizeToTray enable="false"/>
+    <HubRegistration enable="false"/>
+    <HubName>YnHub 1.036</HubName>
+    <BotName>-YnHub-</BotName>
+    <HubAddress>yourdns.com</HubAddress>
+    <HubDescription>YnHub is the cutest ever!</HubDescription>
+    <AutoSaveSettings enable="true">3600000</AutoSaveSettings>
+    <AutoLoadSettings enable="false"/>
+    <Topic/>
+    <TopicSetBy/>
+    <TopicLevel>0</TopicLevel>
+  </Basic>
+  <Miscellaneous>
+    <MainchatCommands>
+      <HubCommandsVisability>0</HubCommandsVisability>
+      <HubCommandsForceToPM enable="false"/>
+      <HubCommandsShowCommandToSelf enable="true"/>
+      <IntegratedCommandsVisability>2</IntegratedCommandsVisability>
+      <IntegratedCommandsForceToPM enable="false"/>
+    </MainchatCommands>
+    <Miscellaneous>
+      <MaxHitsOnSearch>200</MaxHitsOnSearch>
+      <AutoSendOwnUserIP enable="false"/>
+    </Miscellaneous>
+  </Miscellaneous>
+  <Notifications>
+    <ProtocolMessages>
+      <NotifyInvalidKey enable="true"/>
+      <NotificationInvalidMyINFO enable="true"/>
+      <NotificationInvalidPM enable="true"/>
+      <NotifyInvalidMC enable="true"/>
+      <NotifyInvalidIPInConnectToMe enable="true"/>
+      <NotifyInvalidCharsInNick enable="true"/>
+      <NotifyInvalidRevConnectToMe enable="true"/>
+      <NotifyInvalidSR enable="true"/>
+    </ProtocolMessages>
+    <Spam>
+      <NotifyMyINFOSpam enable="true"/>
+      <NotifySearchSpam enable="true"/>
+      <NotifyMCSpam enable="true"/>
+      <NotifyGetNickListSpam enable="true"/>
+      <NotifyPMSpam enable="true"/>
+      <NotifyJunkDataSpam enable="true"/>
+    </Spam>
+    <Other>
+      <InformOperatorsInMcOnKick enable="true"/>
+      <InformOperatorsInMcOnBan enable="true"/>
+      <SuppressKickMessagesInMainChat enable="false"/>
+    </Other>
+    <Feed>
+      <UseFeedCommand enable="true"/>
+      <SaveFeedToDisk enable="false"/>
+      <FeedName>[Feed]</FeedName>
+    </Feed>
+  </Notifications>
+  <Security>
+    <General>
+      <CheckDataBeforeLock enable="true">0</CheckDataBeforeLock>
+      <CheckSenderIPOnSearchAndConnectToMe enable="true"/>
+      <MaxAmountAuthorizing>500</MaxAmountAuthorizing>
+      <KickOnInvalidKey enable="true"/>
+      <PerformDNSLookup enable="true"/>
+      <UseShareTrace enable="true"/>
+      <ShareTraceNotifyShareUpdate enable="true"/>
+      <ShareTraceAutoPruneHours enable="true">12</ShareTraceAutoPruneHours>
+      <TmpBanTime enable="true">360000</TmpBanTime>
+      <IdleTimeOut enable="true">300000</IdleTimeOut>
+      <HandshakeTimeOut enable="true">40000</HandshakeTimeOut>
+      <NotifyIncorrectPass enable="true">3</NotifyIncorrectPass>
+    </General>
+    <Autobans>
+      <AutoBanIncorrectPassword enable="true" count="5" hours="24"/>
+      <AutoBanOnKick enable="true" count="5" hours="6"/>
+    </Autobans>
+    <Spam>
+      <MaxSpamWarnings>6</MaxSpamWarnings>
+      <SearchSpamMaxCount enable="1" count="4" interval="10000"/>
+      <MainChatSpamMaxCount enable="1" count="5" interval="10000"/>
+      <PMSpamCheck enable="1" count="5" interval="10000"/>
+      <NickListSpamCheck enable="1" count="3" interval="10000"/>
+      <MyINFOSpamCheck enable="1" count="15" interval="60000"/>
+      <JunkData enable="true">512</JunkData>
+      <JunkDataDK enable="true">1024</JunkDataDK>
+    </Spam>
+  </Security>
+  <Restrictions>
+    <Search>
+      <SRMaxCount enable="true">100</SRMaxCount>
+      <SearchMinLengthAny enable="false">4</SearchMinLengthAny>
+      <SearchMinLengthSpec enable="false">2</SearchMinLengthSpec>
+    </Search>
+    <Length>
+      <NickMinLength enable="true">3</NickMinLength>
+      <NickMaxLength enable="true">32</NickMaxLength>
+      <SearchMaxLength enable="true">150</SearchMaxLength>
+      <MyINFOMaxLength enable="true">200</MyINFOMaxLength>
+      <MainChatMaxMessageLength enable="true">2048</MainChatMaxMessageLength>
+      <PrivateMessageMaxMessageLength enable="true">8192</PrivateMessageMaxMessageLength>
+      <TopicMaxMessageLength enable="true">512</TopicMaxMessageLength>
+    </Length>
+    <MyINFO>
+      <MyINFOPooling enable="1">900000</MyINFOPooling>
+      <DisableMyINFODescription>0</DisableMyINFODescription>
+      <DisableMyINFODescriptionTag>0</DisableMyINFODescriptionTag>
+      <DisableMyINFOEmail>0</DisableMyINFOEmail>
+      <DisableMyINFOConnectionSpeed>0</DisableMyINFOConnectionSpeed>
+    </MyINFO>
+    <Protocol>
+      <SearchAllowed enable="true"/>
+      <PassiveSearchAllowed enable="true"/>
+      <MainChatMessageAllowed enable="true"/>
+      <PrivateMessageAllowed enable="true"/>
+      <ConnectToMeAllowed enable="true"/>
+      <RevConnectToMeAllowed enable="true"/>
+      <KickAllowed enable="true"/>
+      <RedirectAllowed enable="true"/>
+    </Protocol>
+  </Restrictions>
+  <Users>
+    <Connection>
+      <RegOnlyHub enable="false"/>
+      <AllowUsersToRegister enable="true"/>
+      <NoISPAllowed enable="false"/>
+      <UseISPCheck enable="false"/>
+      <CaseSenstivePrefixPatternCompare enable="true"/>
+      <UseGeneralPrefixPatternCheck enable="false"/>
+      <GeneralPrefixPattern/>
+      <MinShare enable="false">2147483648</MinShare>
+      <MaxShare enable="false">0</MaxShare>
+      <MaxHubs enable="false">0</MaxHubs>
+      <MinSlots enable="false">0</MinSlots>
+      <MaxSlots enable="false">0</MaxSlots>
+      <SlotRatio enable="false">0</SlotRatio>
+      <MayBeInPassiveMode enable="true"/>
+      <AllowTagLessToByPass enable="false"/>
+      <AllowedNickChars enable="false">0000000000000000000000000000000000000001110111111111111111000000011111111111111111111111111101010111111111111111111111111111010000000000000000100000000001000011001000000100001010110000010011111111111011111111001111101111110111111111111111111111111011111111</AllowedNickChars>
+      <WordDelimiters>0000000000000000000000000000000011101111111111110000000000111111000000000000000000000000000111110000000000000000000000000001111111111111111111011111111110111100110111111011110111111111111111110000000000000000000000000000000000000000000000000000000000000000</WordDelimiters>
+    </Connection>
+    <DefaultPassword>
+      <Password enable="false">test</Password>
+      <PasswordMessage/>
+    </DefaultPassword>
+  </Users>
+  <Redirects>
+    <RedirectOnFull enable="false"/>
+    <RedirectOnISP enable="false"/>
+    <RedirectOnLowShare enable="false"/>
+    <RedirectOnHighShare enable="false"/>
+    <RedirectOnPassiveMode enable="false"/>
+    <RedirectOnRegOnly enable="false"/>
+    <RedirectOnNoTag enable="false"/>
+    <RedirectOnHighHubs enable="false"/>
+    <RedirectOnLowSlots enable="false"/>
+    <RedirectOnHighSlots enable="false"/>
+    <RedirectOnLowSlotRatio enable="false"/>
+    <RedirectOnBans enable="false"/>
+  </Redirects>
+  <UserStats>
+    <UserStatsType>0</UserStatsType>
+    <UserStatsAutoPrune enable="true">5</UserStatsAutoPrune>
+    <UserStatsMySQLHost>localhost</UserStatsMySQLHost>
+    <UserStatsMySQLPort>3306</UserStatsMySQLPort>
+    <UserStatsMySQLUser>root</UserStatsMySQLUser>
+    <UserStatsMySQLPassword/>
+    <UserStatsMySQLDatabase>ynhub</UserStatsMySQLDatabase>
+  </UserStats>
+</Settings>

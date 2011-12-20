@@ -1,0 +1,15 @@
+YnHub 1.036 Changelog.
+
+Fixed: 
+* 'Invalid stream format' error.
+* Issue with MC/PM scanner that was happening because of the previous error.
+
+New:
+* MCTo: Changed this so that anything that doesn't start with $ is valid, instead of just <
+  since we might want to send "*** Hello" and not just "<bot> Hello".
+* Added Feed for invalid MCTo's.
+* Updated the included textcommands to showcase new features.
+
+
+Note:
+This is a fix of 1.035. For further changes see the 1.035 changelog.

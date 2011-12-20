@@ -1,0 +1,45 @@
+YnHub 1.035 Changelog.
+
+New:
+* Chatrooms have been reorganized a bit. You can now allow a profile to only see the chatroom (Visible) instead of being able to join.
+* Persistant topic (saved to settings.xml).
+* New integrated command: "+history <x>" to display x latest mainchat messages. Just "+history" will give you the latest 20 (if there are that many).
+  The 100 latest mainchat messages are saved.
+* §opm, §unban and §unbanclient now shows up in Feed.
+* Max length setting for Topic (under Restrictions).
+* Profile is now visible in single §showreg hits.
+* Passwords are trimmed (spaces before and after removed) before being compared.
+* Updated Hublist list with more hublists. See the forum for more places to register your hub.
+
+Fixed:
+* [BugID 10] Fixed crash on Save + Load Settings operations.
+* [BugId 12] $MCTo works properly now. Syntax is "$MCTo: TargetUser $<OriginUser> message|".
+* [BugID 14] Fixed §trafficinfo incorrectly disregarding target profile level settings. Hub command has level 9.
+* [BugId 20] Text command listview can now be retrieved after a minimize + restore operation.
+* [BugID 22] Fixed so that no $RevConnectToMe messages are sent to users who are not allowed to use $ConnectToMe.
+* [BugID 28] Changed "BotInfo" in $Supports to proper "BotINFO".
+* [BugID 33] If hub can't connect to MySQL server on startup (user stats) it goes to local without blocking startup.
+* [BugID 36] Fixed so that Randomized text commands work when Broadcasted to Everyone and Operators.
+* [BugID 37] Added sending of $BadPass if password is incorrect.
+* [BugID 38] Fixed so that the previous kickmessage is not used if no reason is given for a kick.
+* [BugID 39] Fixed §setexpiredate so that it correctly removes expiredate if "§setexpiredate <nick> 0" is used.
+* [BugID 40] Fixed hub sending inproperly formatted $UserIP list when only one user was in the hub.
+* [BugId 43] Fixed saving/loading of "Enable check of nick characters" in Security / Restrictions.
+* Fixed Min sharesize, Min slots, Max slots, Max sharesize, Max hubs, Slot ratio changes through the GUI,
+  they update the values properly now, instead of just ignoring them as before. Changes are instant.
+  Known issue: when typing a value into one of the boxes, it sometimes gets cut. Use the up/down buttons instead.
+* Fixed so that the hub rounds off values higher than 99 to 99 (which is max) when using the §setslotratio/etc commands.
+* MySQL support updated to support MySQL 5.0 properly.
+* No MySQL connection is attempted if database box is empty.
+* Removed tooltip from Text Commands content box since it got in the way when adding content.
+* Max hubs checkbox is correctly disabled when checking the "Override" box in Profiles -> Overrides.
+* Fixed the hublist "Allow pinger to connect to other users" feature (it has problably never worked before).
+* Disabled hublistpingers ability to PM other users.
+* Password is optional when doing a §changereg.
+* Feed reports Reason properly when banning multiple IP's.
+* Fixed missing variable in message when trying to use !cr to a nick that alredy exist.
+* Changed misspelling in text_commands.xml variables. Support for loading files with legacy spelling remains.
+* Fixed faulty Feed for §pm.
+* On startup (if you're using MySQL user stats) YnHub will try to clean up your MySQL database, in case it has incorrect entries.
+
+

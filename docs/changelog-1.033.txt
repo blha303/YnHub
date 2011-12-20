@@ -1,0 +1,8 @@
+YnHub 1.033 Changelog.
+
+Fixed: 
+Bug in the integrated usercommands which results in a an infinite recursive call loop.
+
+
+Note:
+This is a fix of 1.032. For futher changes see the 1.032 change log

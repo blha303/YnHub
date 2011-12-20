@@ -1,0 +1,26 @@
+YnHub 1.032 Changelog.
+
+Fixes:
+A few Access Violations.
+The Logout to MySQL bug fixed.
+
+Updates:
+Has a super-sized buffer for hubowners who think a 15'000 user hub isn't enough.
+An improved memory-handler is used. Thanks to all in basm! =)
+
+Features:
+A SearchScanner has been added (similar to PMScanner)
+Textcommands have random support like the mc-scanner. Ex. +hi yeilds Hello|Hi!|Hello World
+§pmprofile <profile> <message>
+§setgreeting <account> <greeting> (join message for an account)
+§changereg (§cr) <nick> <nick> [pass]
+More Feed. Stuff like who used §say and §pm will be logged.
+Last Spoke introduced on accounts
+Multiple §banip/§bandns. Ex §banip 127.1.*;127.2.*;127.3.*
+Nick min length restriction
+A very cool splash on start-up
+Will not ask if to shutdown if minimized
+A few more easter eggs
+
+Obsolete:
+§setpass - Will be removed in a future version as §cr does it.

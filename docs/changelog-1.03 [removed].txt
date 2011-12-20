@@ -1,0 +1,27 @@
+YnHub 1.03 Changelog.
+
+This isn't a all accurate changlog and there are minor changes/fixes that isn't stated below.. 
+however these are the most important changes in 1.03
+
+
+Fixes:
+Access violations in banlist
+Minor memory leak in MySQL userstats fixed
+MMX requirement removed
+
+Feature/Updates:
+Core has been changed to "crashclose" sockets when closing the application when running => connection reset instead of disconnected (a graceful disconnect, which made some clients disable reconnect)
+MCTo is now checked to make sure contain a correct mainchat message even when profile allow no nickcheck.
+Spam abuse messages are divided into categories allowing specific messages for different abuses
+Added query to error message on MySQL exception
+Command visibility on Hub commands
+Junkdata spam control
+Possibilty to match any Nick/IP/DNS/Client ban against their banlist
+XML-file auto reload
+Unblock/Unmute/Unkenny/Unlunarize now works on singel users in userstats
+GUI has been updated to allow XP-themes
+Hideme command added
+Feed group control moved from general settings to each profile
+Full UserIP2 support
+Tells what character didn't match when checking nick against allowed characters
+Added trafficstats (ts). Available types are Search, SR, Connect, NickList, MyINFO, MC, PM, Data, BW

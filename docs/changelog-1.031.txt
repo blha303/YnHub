@@ -1,0 +1,8 @@
+YnHub 1.031 Changelog.
+
+Fixed: 
+Bug in the hideme command
+
+
+Note:
+This is a fix of 1.03. For futher changes see the 1.03 change log

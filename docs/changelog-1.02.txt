@@ -1,0 +1,47 @@
+YnHub 1.02 Changelog.
+
+This isn't a all accurate changlog and there are minor changes/fixes that isn't stated below.. 
+however these are the most important changes in 1.02
+
+
+Fixes:
+Last used column for Clientbans.
+Leading spaces being removed when using certain commands not longer removed.
+Issue in the Profile settings with Set Profile/Set req. ISP/IP range checkboxes.
+Wrong offset count when using §sr.
+"Suppress client kick message in mainchat" works now.
+Max spam warnings is saved properly.
+When using §settextcommand on a Raw command, a | (pipe) at the end will be automatically added.
+Pipe converts properly to html equivalent (so it works in DC++) now in §showredirects and §setredirect.
+Kick feed won't be sent if deactivated.
+Feed will only be sent if you've joined the chatroom where it is set.
+Chatrooms obey the "Is operator" checkbox properly.
+Chatrooms with a space in them can be created through §addchatrooms command.
+Text commands that are triggered with a wrong set of parameters will still display.
+MySQL "is not a valid time and date" issue fixed.
+Userstats prune/clear issue with online users.
+
+Changes:
+More client-tags will be recognized now. Instead of just "Unknown" they'll show up as "BeginningOfTag".
+A better memory manager has been added to get rid of memory fragmentation (less memory usage)
+Multiselection/removal is now possible in the accounts/banlists.
+New storage structure for banlists.
+Nick and client and DNS bans can handle both left and right wildcards.
+Nickpattern for hublist pingers can be left or right truncated. The nickpatterns also reserve the matching nicks to hublist pingers thus 
+ordinary users can't use these nicks and block the pinger..
+
+New:
+Statistics page (also a peak sharelimit/uptime).
+Chatrooms can now have a welcome message.
+Text commands can be enabled/disabled for muted users
+Min/max reciever levels for text commands.
+Command visibility for text commands, sets who can see the message being written.
+Command visibility for integreated commands + the option to force integrated/hub commands to reply in PM
+New command to list which text commands you can edit, §listtextcommand.
+You can now apply a special Profile both for unregistered users, and self Registered ones.
+Global hub password.
+Maxhits hub commands search amount settable.
+Banreason now visible when using the showban commands.
+Extended MySQL userstats.
+Full UserIP2 support (autosend of UserIPs, check your profiles)
+A Private message scanner has been added (to let you all get ride of all those advertisers etc.)

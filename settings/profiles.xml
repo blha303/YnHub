@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Profiles version="1.036">
+  <Profile>
+    <Name>Regular</Name>
+    <Description/>
+    <ProfileLevel>0</ProfileLevel>
+    <General>
+      <ProfileSettings>
+        <IsOperator enable="false"/>
+        <ForceHideShare enable="false"/>
+        <MayHideShare enable="false"/>
+        <MayHideMe enable="false"/>
+        <MayShowHidden>0</MayShowHidden>
+        <MayUseHubCommands enable="false"/>
+        <MayEnterEvenIfHubIsFull enable="false"/>
+      </ProfileSettings>
+      <Information>
+        <MayShowHubInfo enable="false"/>
+        <MayShowUserInfo>0</MayShowUserInfo>
+        <MayShowIPInfo enable="false"/>
+        <MayShowNickInfo enable="false"/>
+        <MayShowTrafficInfo>0</MayShowTrafficInfo>
+        <MayShowTrafficStats enable="false"/>
+      </Information>
+      <HubControl>
+        <MayLockHub enable="false"/>
+        <MayRedirectAll>0</MayRedirectAll>
+        <MaySetTopic>0</MaySetTopic>
+        <MaySaveSettings enable="false"/>
+        <MayChangeUserLimit enable="false"/>
+        <MaySetWorkPace enable="false"/>
+        <MayDisabledMainChat enable="false"/>
+      </HubControl>
+      <ConnRestrictions>
+        <MaySetMinShare enable="false"/>
+        <MaySetMaxShare enable="false"/>
+        <MaySetMaxHubs enable="false"/>
+        <MaySetMinSlots enable="false"/>
+        <MaySetMaxSlots enable="false"/>
+        <MaySetSlotRatio enable="false"/>
+      </ConnRestrictions>
+    </General>
+    <UserAdmin>
+      <Accounts>
+        <MayAccountsAdd>0</MayAccountsAdd>
+        <MayAccountsDel>0</MayAccountsDel>
+        <MayAccountsList>0</MayAccountsList>
+        <MayAccountsSetProfile>0</MayAccountsSetProfile>
+        <MayAccountsSetIPs>0</MayAccountsSetIPs>
+        <MayAccountsShowIPs>0</MayAccountsShowIPs>
+        <MayAccountsSetComment>0</MayAccountsSetComment>
+        <MayAccountsSetGreeting>0</MayAccountsSetGreeting>
+        <MayAccountsSetExpireDate>0</MayAccountsSetExpireDate>
+        <MayAccountsSetOwner>0</MayAccountsSetOwner>
+        <MayAccountsSetPass>0</MayAccountsSetPass>
+        <MayAccountsShowPass>0</MayAccountsShowPass>
+        <MayAccountsProfilesShow>0</MayAccountsProfilesShow>
+      </Accounts>
+      <UserControl>
+        <MayBlockUser>0</MayBlockUser>
+        <MayRedirect>0</MayRedirect>
+        <MayDropUser>0</MayDropUser>
+        <MayKickUser>0</MayKickUser>
+        <MayBanNick>0</MayBanNick>
+        <MayBanIP enable="false"/>
+        <MayBanDNS enable="false"/>
+        <MayBanClients enable="false"/>
+        <MayBanTempban enable="false"/>
+        <MayUseMuteUser>0</MayUseMuteUser>
+        <MayUseLunarizeUser>0</MayUseLunarizeUser>
+        <MayUseKennylizeUser>0</MayUseKennylizeUser>
+      </UserControl>
+    </UserAdmin>
+    <ISP>
+      <AdminISPs>
+        <MayISPAddISP enable="false"/>
+        <MayISPDelISP enable="false"/>
+        <MayISPShowISPs enable="false"/>
+        <MayISPSetMinShare enable="false"/>
+        <MayISPSetMaxShare enable="false"/>
+        <MayISPSetMaxHubs enable="false"/>
+        <MayISPSetMinSlots enable="false"/>
+        <MayISPSetMaxSlots enable="false"/>
+        <MayISPSetSlotRatio enable="false"/>
+      </AdminISPs>
+      <AdminIPs>
+        <MayISPShowIPsOnISP enable="false"/>
+        <MayISPAddIP enable="false"/>
+        <MayISPDelIP enable="false"/>
+      </AdminIPs>
+    </ISP>
+    <Miscellaneous>
+      <Redirects>
+        <MayRedirectChangeOnHubFull enable="false"/>
+        <MayRedirectChangeOnIncorrectISP enable="false"/>
+        <MayRedirectChangeOnLowShare enable="false"/>
+        <MayRedirectChangeOnHighShare enable="false"/>
+        <MayRedirectChangeOnRegOnly enable="false"/>
+        <MayRedirectChangeOnPassive enable="false"/>
+        <MayRedirectChangeOnNoTag enable="false"/>
+        <MayRedirectChangeOnHighHubs enable="false"/>
+        <MayRedirectChangeOnLowSlots enable="false"/>
+        <MayRedirectChangeOnHighSlots enable="false"/>
+        <MayRedirectChangeOnLowSlotRatio enable="false"/>
+        <MayRedirectChangeOnBaned enable="false"/>
+      </Redirects>
+      <Miscellaneous>
+        <MayAdminChatRooms enable="false"/>
+        <MayAdminTextFiles>0</MayAdminTextFiles>
+        <MayAdminRegistered enable="false"/>
+        <MayUseSay>0</MayUseSay>
+        <MayUseMC enable="false"/>
+        <MayUseWarn>0</MayUseWarn>
+        <MayUseInform enable="false"/>
+        <MayUsePM enable="false"/>
+        <MayUsePMProfile>0</MayUsePMProfile>
+        <MayUseOPM enable="false"/>
+      </Miscellaneous>
+    </Miscellaneous>
+    <Overrides>
+      <Priveliges>
+        <MayByPassFloodCheck enable="false"/>
+        <MayByPassMCLengthCheck enable="false"/>
+        <MayByPassPMLengthCheck enable="false"/>
+        <MayByPassIPCheckOnSearchAndConnectToMe enable="false"/>
+        <MayByPassMessageOriginCheck enable="false"/>
+        <MayByPassNickBans enable="false"/>
+        <MayByPassIPBans enable="false"/>
+        <MayByPassDNSBans enable="false"/>
+        <MayByPassClientBans enable="false"/>
+        <MayByPassTmpBans enable="false"/>
+      </Priveliges>
+      <ConnRestrictions>
+        <MayByPassISPIPCheck enable="false"/>
+        <UseProfileConnRestriction enable="false"/>
+        <MinShare enable="false">0</MinShare>
+        <MaxShare enable="false">0</MaxShare>
+        <MaxHubs enable="false">0</MaxHubs>
+        <MinSlots enable="false">0</MinSlots>
+        <MaxSlots enable="false">0</MaxSlots>
+        <SlotRatio enable="false">0</SlotRatio>
+        <MayBeInPassiveMode enable="true"/>
+        <AllowTagLessToByPass enable="false"/>
+      </ConnRestrictions>
+    </Overrides>
+    <Advanced>
+      <ProtocolRestrictions>
+        <MayReceiveNickListBeforeMyINFO enable="false"/>
+        <MaySearch enable="true"/>
+        <MaySearchPassive enable="true"/>
+        <MaySendMainChatMessages enable="true"/>
+        <MaySendPrivateMessage enable="true"/>
+        <MaySendConnectToMe enable="true"/>
+        <MaySendRevConnectToMe enable="true"/>
+      </ProtocolRestrictions>
+      <FeatureAccess>
+        <MayAccessUserIP enable="false"/>
+        <MayAccessUserIP2 enable="false"/>
+        <MayAccessMCTo enable="false"/>
+      </FeatureAccess>
+      <MasterOverrides>
+        <MayNeverBeDropped enable="false"/>
+        <MayNeverBeKicked enable="false"/>
+        <MayNeverBeRedirected enable="false"/>
+      </MasterOverrides>
+      <Feed>
+        <MayReceiveActionFeed enable="false"/>
+        <MayReceiveKickFeed enable="false"/>
+        <MayReceiveEventFeed enable="false"/>
+        <MayReceiveGUIFeed enable="false"/>
+        <MayReceiveErrorFeed enable="false"/>
+        <MayReceiveTextCommandFeed enable="false"/>
+      </Feed>
+    </Advanced>
+    <JoinAnnouncement enable="false"/>
+  </Profile>
+  <Profile>
+    <Name>Registered</Name>
+    <Description/>
+    <ProfileLevel>0</ProfileLevel>
+    <General>
+      <ProfileSettings>
+        <IsOperator enable="false"/>
+        <ForceHideShare enable="false"/>
+        <MayHideShare enable="false"/>
+        <MayHideMe enable="false"/>
+        <MayShowHidden>0</MayShowHidden>
+        <MayUseHubCommands enable="false"/>
+        <MayEnterEvenIfHubIsFull enable="false"/>
+      </ProfileSettings>
+      <Information>
+        <MayShowHubInfo enable="false"/>
+        <MayShowUserInfo>0</MayShowUserInfo>
+        <MayShowIPInfo enable="false"/>
+        <MayShowNickInfo enable="false"/>
+        <MayShowTrafficInfo>0</MayShowTrafficInfo>
+        <MayShowTrafficStats enable="false"/>
+      </Information>
+      <HubControl>
+        <MayLockHub enable="false"/>
+        <MayRedirectAll>0</MayRedirectAll>
+        <MaySetTopic>0</MaySetTopic>
+        <MaySaveSettings enable="false"/>
+        <MayChangeUserLimit enable="false"/>
+        <MaySetWorkPace enable="false"/>
+        <MayDisabledMainChat enable="false"/>
+      </HubControl>
+      <ConnRestrictions>
+        <MaySetMinShare enable="false"/>
+        <MaySetMaxShare enable="false"/>
+        <MaySetMaxHubs enable="false"/>
+        <MaySetMinSlots enable="false"/>
+        <MaySetMaxSlots enable="false"/>
+        <MaySetSlotRatio enable="false"/>
+      </ConnRestrictions>
+    </General>
+    <UserAdmin>
+      <Accounts>
+        <MayAccountsAdd>0</MayAccountsAdd>
+        <MayAccountsDel>0</MayAccountsDel>
+        <MayAccountsList>0</MayAccountsList>
+        <MayAccountsSetProfile>0</MayAccountsSetProfile>
+        <MayAccountsSetIPs>0</MayAccountsSetIPs>
+        <MayAccountsShowIPs>0</MayAccountsShowIPs>
+        <MayAccountsSetComment>0</MayAccountsSetComment>
+        <MayAccountsSetGreeting>0</MayAccountsSetGreeting>
+        <MayAccountsSetExpireDate>0</MayAccountsSetExpireDate>
+        <MayAccountsSetOwner>0</MayAccountsSetOwner>
+        <MayAccountsSetPass>0</MayAccountsSetPass>
+        <MayAccountsShowPass>0</MayAccountsShowPass>
+        <MayAccountsProfilesShow>0</MayAccountsProfilesShow>
+      </Accounts>
+      <UserControl>
+        <MayBlockUser>0</MayBlockUser>
+        <MayRedirect>0</MayRedirect>
+        <MayDropUser>0</MayDropUser>
+        <MayKickUser>0</MayKickUser>
+        <MayBanNick>0</MayBanNick>
+        <MayBanIP enable="false"/>
+        <MayBanDNS enable="false"/>
+        <MayBanClients enable="false"/>
+        <MayBanTempban enable="false"/>
+        <MayUseMuteUser>0</MayUseMuteUser>
+        <MayUseLunarizeUser>0</MayUseLunarizeUser>
+        <MayUseKennylizeUser>0</MayUseKennylizeUser>
+      </UserControl>
+    </UserAdmin>
+    <ISP>
+      <AdminISPs>
+        <MayISPAddISP enable="false"/>
+        <MayISPDelISP enable="false"/>
+        <MayISPShowISPs enable="false"/>
+        <MayISPSetMinShare enable="false"/>
+        <MayISPSetMaxShare enable="false"/>
+        <MayISPSetMaxHubs enable="false"/>
+        <MayISPSetMinSlots enable="false"/>
+        <MayISPSetMaxSlots enable="false"/>
+        <MayISPSetSlotRatio enable="false"/>
+      </AdminISPs>
+      <AdminIPs>
+        <MayISPShowIPsOnISP enable="false"/>
+        <MayISPAddIP enable="false"/>
+        <MayISPDelIP enable="false"/>
+      </AdminIPs>
+    </ISP>
+    <Miscellaneous>
+      <Redirects>
+        <MayRedirectChangeOnHubFull enable="false"/>
+        <MayRedirectChangeOnIncorrectISP enable="false"/>
+        <MayRedirectChangeOnLowShare enable="false"/>
+        <MayRedirectChangeOnHighShare enable="false"/>
+        <MayRedirectChangeOnRegOnly enable="false"/>
+        <MayRedirectChangeOnPassive enable="false"/>
+        <MayRedirectChangeOnNoTag enable="false"/>
+        <MayRedirectChangeOnHighHubs enable="false"/>
+        <MayRedirectChangeOnLowSlots enable="false"/>
+        <MayRedirectChangeOnHighSlots enable="false"/>
+        <MayRedirectChangeOnLowSlotRatio enable="false"/>
+        <MayRedirectChangeOnBaned enable="false"/>
+      </Redirects>
+      <Miscellaneous>
+        <MayAdminChatRooms enable="false"/>
+        <MayAdminTextFiles>0</MayAdminTextFiles>
+        <MayAdminRegistered enable="false"/>
+        <MayUseSay>0</MayUseSay>
+        <MayUseMC enable="false"/>
+        <MayUseWarn>0</MayUseWarn>
+        <MayUseInform enable="false"/>
+        <MayUsePM enable="false"/>
+        <MayUsePMProfile>0</MayUsePMProfile>
+        <MayUseOPM enable="false"/>
+      </Miscellaneous>
+    </Miscellaneous>
+    <Overrides>
+      <Priveliges>
+        <MayByPassFloodCheck enable="false"/>
+        <MayByPassMCLengthCheck enable="false"/>
+        <MayByPassPMLengthCheck enable="false"/>
+        <MayByPassIPCheckOnSearchAndConnectToMe enable="false"/>
+        <MayByPassMessageOriginCheck enable="false"/>
+        <MayByPassNickBans enable="false"/>
+        <MayByPassIPBans enable="false"/>
+        <MayByPassDNSBans enable="false"/>
+        <MayByPassClientBans enable="false"/>
+        <MayByPassTmpBans enable="false"/>
+      </Priveliges>
+      <ConnRestrictions>
+        <MayByPassISPIPCheck enable="false"/>
+        <UseProfileConnRestriction enable="false"/>
+        <MinShare enable="false">0</MinShare>
+        <MaxShare enable="false">0</MaxShare>
+        <MaxHubs enable="false">0</MaxHubs>
+        <MinSlots enable="false">0</MinSlots>
+        <MaxSlots enable="false">0</MaxSlots>
+        <SlotRatio enable="false">0</SlotRatio>
+        <MayBeInPassiveMode enable="true"/>
+        <AllowTagLessToByPass enable="false"/>
+      </ConnRestrictions>
+    </Overrides>
+    <Advanced>
+      <ProtocolRestrictions>
+        <MayReceiveNickListBeforeMyINFO enable="false"/>
+        <MaySearch enable="true"/>
+        <MaySearchPassive enable="true"/>
+        <MaySendMainChatMessages enable="true"/>
+        <MaySendPrivateMessage enable="true"/>
+        <MaySendConnectToMe enable="true"/>
+        <MaySendRevConnectToMe enable="true"/>
+      </ProtocolRestrictions>
+      <FeatureAccess>
+        <MayAccessUserIP enable="false"/>
+        <MayAccessUserIP2 enable="false"/>
+        <MayAccessMCTo enable="false"/>
+      </FeatureAccess>
+      <MasterOverrides>
+        <MayNeverBeDropped enable="false"/>
+        <MayNeverBeKicked enable="false"/>
+        <MayNeverBeRedirected enable="false"/>
+      </MasterOverrides>
+      <Feed>
+        <MayReceiveActionFeed enable="false"/>
+        <MayReceiveKickFeed enable="false"/>
+        <MayReceiveEventFeed enable="false"/>
+        <MayReceiveGUIFeed enable="false"/>
+        <MayReceiveErrorFeed enable="false"/>
+        <MayReceiveTextCommandFeed enable="false"/>
+      </Feed>
+    </Advanced>
+    <JoinAnnouncement enable="false"/>
+  </Profile>
+</Profiles>
